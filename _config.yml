@@ -1,0 +1,31 @@
+
+title: My Resume
+url: 'http://shehabce.github.io'
+baseurl: '/' #change it according to your repository name
+
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+#Profile information
+name: Shehab Abdel-Salam
+tagline: Software Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: shehab_m@aucegypt.edu
+phone: 012 345 6789
+website: shehabce.github.io #do not add http://
+linkedin: Shehab Abdel-Salam
+github: ShehabCE
+twitter: '@webjeda'
+
+
+# Tracker
+analytics: UA-83979019-1
+#Update all the sections by editing the files inside _includes folder.
