@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Shehab Abdel-Salam
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: Shehab's
+subtitle: "A place where both my technical and non-technical side come together."
 email: blcentra@gmail.com
-name: Ben Centra
+name: Shehab Abdel-Salam
 description: >
   A simple yet classy theme for your Jekyll website or blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -51,8 +51,11 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: Blogs
+    desc: "Sharing my thoughts."
+
+  - cat: Projects
+    desc: "Showcasing my work."
 
 # Social icons and sharing options
 #
@@ -70,30 +73,29 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
+  # - name: Twitter
+  #   icon: twitter
+  #   username: TheBenCentra
+  #   url: https://twitter.com/TheBenCentra
+  #   desc: Follow me on Twitter
+  #   share: false
 
-  - name: Facebook
-    icon: facebook
-    username: thebencentra
-    url:
-    desc: Friend me on Facebook
-    share: true
+  # - name: Facebook
+  #   icon: facebook
+  #   username: thebencentra
+  #   url:
+  #   desc: Friend me on Facebook
+  #   share: false
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
-    desc: Fork me on GitHub
-    share: false
+    username: Shehab 
+    url: https://github.com/ShehabMMohamed
+    share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
+    username: Shehab Abdel-Salam
     url: https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
     share: true
@@ -124,7 +126,7 @@ social:
     username:
     url:
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -173,7 +175,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
