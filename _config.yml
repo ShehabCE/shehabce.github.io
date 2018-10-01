@@ -9,9 +9,9 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Shehab's
+title: Shehab Abdel-Salam
 subtitle: "A place where both my technical and non-technical side come together."
-email: blcentra@gmail.com
+email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
 description: >
   A simple yet classy theme for your Jekyll website or blog.
@@ -187,14 +187,14 @@ social:
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-protocols:
-    fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
+# protocols:
+#     fb_image: "/assets/logo.png"
+#     fb_image_width: 612
+#     fb_image_height: 605
+#     fb_image_type: "image/png"
 
-    twitter_image: "/assets/logo.png"
+#     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+#     os_repo: "https://github.com/bencentra/centrarium.com"
+#     os_rcs_type: "git"
+#     os_src: "git@github.com:bencentra/centrarium.com.git"
