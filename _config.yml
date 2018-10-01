@@ -54,6 +54,9 @@ descriptions:
   - cat: Blogs
     desc: "Sharing my thoughts."
 
+  - cat: Technical Blogs
+    desc: "Sharing my thoughts."
+
   - cat: Projects
     desc: "Showcasing my work."
 
