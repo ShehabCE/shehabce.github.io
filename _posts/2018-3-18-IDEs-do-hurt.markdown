@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "IDEs do hurt, unless..."
-date:   2015-04-18 08:43:59
-author: Shehab
+date:   2018-03-18 08:40:00
+<!-- author: Shehab -->
 categories: Technical
 cover:  "/assets/ides-do-hurt.png"
 ---

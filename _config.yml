@@ -14,7 +14,7 @@ subtitle: "A place where both my technical and non-technical side come together.
 email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  A place where both my technical and non-technical side come together.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -48,14 +48,11 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: Profound-Thoughts
+    desc: "Some thoughtful stuff."
 
-  - cat: Blogs
-    desc: "Sharing my thoughts."
-
-  - cat: Technical Blogs
-    desc: "Sharing my thoughts."
+  - cat: Technical
+    desc: "Some geek stuff."
 
   - cat: Projects
     desc: "Showcasing my work."
@@ -108,7 +105,7 @@ social:
     username:
     url:
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
