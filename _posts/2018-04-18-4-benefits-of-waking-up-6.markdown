@@ -1,26 +1,27 @@
 ---
 layout: post
-title:  "4 Benefits of waking up at 6 AM"
+title:  "Four Benefits of waking up at 6 AM"
 date:   2018-04-18 14:14:00
 <!-- author: Shehab -->
 categories: Profound-Thoughts
 <!-- cover:  "/assets/i-graduated.png" -->
 ---
+
 Ever felt the ambition and the eagerness to do or learn a lot of things in parallel but always end up struggling because you don't have free time? You're shooting down many goals because of lack of time, or at least that's what we think it is. With all the available technologies to use and ideas we dream of, we fantasize of how to become a "perfect" self. Everyone has his/her own definition of perfectionism like having strict diet plans, regimented workout schedules, flawless relationships, glorified tracks of work, you name it. But being a perfectionist is a flawed concept because there is no such thing as perfection. There is however, enjoyment, risk-taking, mistake-making, learning, hard-working, and enjoyment once more. We all want to do many things at the same time, but what we need to do is, relax, not stress out, drop the "Perfectionist" Hat and wear the "Hard Worker" Hat, prioritize what we want to do, and work towards it without being afraid of making mistakes. But why am I writing about benefits of waking up early? Because regulated sleep cycle is a catalyst to achieve goals we desire. If you sleep properly, you won't struggle with "lack of time". And I believe there are four amazing outcomes when it comes to waking up early.
 
- 1. Boosted Time and Focus 
+<strong>Boosted Time and Focus</strong> 
 
 Waking up at 6 AM gives you the upper hand of making use of your day. You wake up determined and more excited than waking up late afternoon. You have more time to eat a proper breakfast than skipping it or eating non-good-for-morning snacks. You also have more time to plan out the things you need to do for the day, maybe small goals you want to achieve (finish work at x, go for a walk, buy something from a store, etc.). You're more in charge of the day and you won't feel the rush the same way you did if you woke up late. That time of the day you have full focus to work on something without worrying about time at all.
 
- 2. No Distractions
+<strong>No Distractions</strong>
 
 At night you might be spending most of the time scrolling through social media like Facebook and Instagram, maybe get a lot of text messages as well. Its like a distraction fiesta, right? But in the morning its very unlikely that someone would be up texting you at 6 AM, so that time frame is the most convenient for any task you have at hand with the least distractions possible. We can easily be distracted by just one ring-tone, but if you regularly practice in the morning this mind discipline of putting in all focus without any distraction, you'll find yourself trained enough to eliminate all distractions to finish a task at anytime of the day.
 
- 3. Fitness Consistency 
+<strong>Fitness Consistency</strong>
 
 Staying up late requires more energy from your body, which is not used to this. This energy depletion sends signals to a part of your brain in charge of your appetite called hypothalamus that triggers your need for late-night snacking. It convinces you that you're hungry because you barely have energy after midnight. So if you try to regulate your sleeping hours to going to bed before midnight and waking up around 6 AM, you wouldn't need to consume more food for energy, thus regulating your appetite which gives you a boost of confidence to stay fit!
 
- 4. Habit Construction 
+<strong>Habit Construction</strong>
 
 Whether you're a student or a job-committed person, if you don't construct the habit of time-management, you'll always feel you don't have time for anything. Taking control of your sleep cycle is just the first habit of many to come! Because of you wake up at 6 AM, you will try to grow different habits like efficiency, productivity, and planning. You'll feel the urge to use these habits as tools that will help you reach your goals.
 
