@@ -10,7 +10,7 @@ exclude:
 
 # Site settings
 title: Shehab Abdel-Salam
-subtitle: "A place where both my technical and non-technical side come together."
+subtitle: "Writing articles, writing code. Love them both equally."
 email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
 description: >
@@ -52,10 +52,10 @@ descriptions:
     desc: "Some thoughtful stuff."
 
   - cat: Technical
-    desc: "Some geek stuff."
+    desc: "Some tech stuff."
 
-  - cat: Projects
-    desc: "Showcasing my work."
+  # - cat: Projects
+  #   desc: "Showcasing my work."
 
 # Social icons and sharing options
 #
