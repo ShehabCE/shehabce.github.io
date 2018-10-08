@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "I graduated, now what?"
-date:   2018-05-18 05:43:29
+title:  "The Dunning Kruger Effect"
+date:   2018-03-18 08:40:00
 <!-- author: Shehab -->
 categories: Profound-Thoughts
-cover:  "/assets/i-graduated.png"
+cover:  "/assets/ides-do-hurt.png"
 ---

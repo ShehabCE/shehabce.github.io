@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Shehab Abdel-Salam
+# title: Shehab Abdel-Salam
 subtitle: "Writing articles, writing code. Love them both equally."
 email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
