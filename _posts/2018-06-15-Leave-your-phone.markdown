@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Leave your phone"
-date:   2018-03-18 08:40:00
+date:   2018-06-15 08:40:00
 <!-- author: Shehab -->
 categories: Food-For-Thought
 cover:  "/assets/posts/ides-do-hurt.png"

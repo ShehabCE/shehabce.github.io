@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
-inter_post_navigation: true
+inter_post_navigation: false
 highlightjs_theme: "dracula"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -41,7 +41,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: shehab
+# disqus_shortname: shehab
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
