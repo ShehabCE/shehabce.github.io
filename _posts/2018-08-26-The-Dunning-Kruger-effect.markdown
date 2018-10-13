@@ -4,7 +4,7 @@ title:  "The Dunning Kruger Effect"
 date:   2018-08-26 12:40:00
 <!-- author: Shehab -->
 categories: Food-For-Thought
-cover:  "/assets/posts/ides-do-hurt.png"
+cover:  "/assets/posts/DK.jpeg"
 ---
 
 Someone asks you to rate yourself in a specific skill, you decided to give a good rating score since you feel you're good at it, but a third person came in and gave a much lower rating score of your skill. You feel offended, maybe angry about this. "How can someone give me a low score?! I'm good at this! He/She doesn't know me well!!" This is an example of what it is called, the Dunning-Kruger effect.
