@@ -4,7 +4,7 @@ title:  "I graduated, now what?"
 date:   2018-05-18 05:43:29
 <!-- author: Shehab -->
 categories: Profound-Thoughts
-cover:  "/assets/i-graduated.png"
+cover:  "/assets/posts/i-graduated.png"
 ---
 
 Oh I have waited for this moment for years! Craving for freedom! Waiting to post on Instagram/Facebook my (last first day at uni), (last last day at uni), (last exam at uni), and (third day before last day at uni). Kidding about that last part, we don't do that, yet. But you get my point, its an amazing feeling! You're just few days away from leaving all these academic pressures behind. Enjoy it, you have definitely earned it.
