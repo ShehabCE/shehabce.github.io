@@ -8,7 +8,7 @@ tags: Algorithms
 cover:  "/assets/posts/ides-do-hurt.png"
 ---
 
-{% highlight c++ %}
+<!-- {% highlight c++ %}
     class Graph {
     private:
         list< int > *adj;
@@ -50,5 +50,5 @@ cover:  "/assets/posts/ides-do-hurt.png"
             return true;
         }
     };
-{% endhighlight %}
+{% endhighlight %} -->
 
