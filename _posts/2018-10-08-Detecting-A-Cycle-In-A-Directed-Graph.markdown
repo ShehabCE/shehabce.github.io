@@ -5,7 +5,7 @@ date:   2018-03-18 08:40:00
 <!-- author: Shehab -->
 categories: Technical
 tags: Algorithms
-<!-- cover:  "/assets/ides-do-hurt.png" -->
+cover:  "/assets/posts/ides-do-hurt.png"
 ---
 
 {% raw %}
