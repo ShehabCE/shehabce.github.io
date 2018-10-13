@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-# title: Shehab Abdel-Salam
+title: Shehab Abdel-Salam
 subtitle: "Writing articles, writing code. Love them both equally."
 email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
 description: >
-  A place where both my technical and non-technical side come together.
+  Writing articles, writing code. Love them both equally.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
-inter_post_navigation: false
+inter_post_navigation: true
 highlightjs_theme: "dracula"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -41,17 +41,17 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: bencentra
+disqus_shortname: shehab
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: Profound-Thoughts
+  - cat: Food-For-Thought
     # desc: "Some thoughtful stuff."
 
-  - cat: Technical
+  - cat: Computer-Science
     # desc: "Some tech stuff."
 
   # - cat: Projects
@@ -96,7 +96,7 @@ social:
   - name: LinkedIn
     icon: linkedin
     username: Shehab Abdel-Salam
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    url: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
     desc: Connect with me on LinkedIn
     share: true
 

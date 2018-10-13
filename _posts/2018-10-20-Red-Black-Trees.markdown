@@ -3,7 +3,7 @@ layout: post
 title:  "Red Black Trees"
 date:   2018-03-18 08:40:00
 <!-- author: Shehab -->
-categories: Technical
+categories: Computer-Science
 tags: Algorithms
 cover:  "/assets/posts/RBT.JPG"
 ---

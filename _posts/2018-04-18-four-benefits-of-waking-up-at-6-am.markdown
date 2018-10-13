@@ -3,7 +3,7 @@ layout: post
 title:  "Four Benefits of waking up at 6 AM"
 date:   2018-04-18 04:12:00
 <!-- author: Shehab -->
-categories: Profound-Thoughts
+categories: Food-For-Thought
 cover:  "/assets/posts/i-graduated.png"
 ---
 

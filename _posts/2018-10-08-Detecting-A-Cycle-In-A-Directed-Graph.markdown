@@ -31,10 +31,10 @@ public:
         recStack[v] = false;
         return false;
     }
-    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+    bool canFinish(int numCourses, vector< pair < int, int > >& prerequisites) {
         vertices = numCourses;
-        adj = new list<int> [vertices];
-        for(int i=0; i<prerequisites.size(); i++) {
+        adj = new list <int> [vertices];
+        for(int i=0; i < prerequisites.size(); i++) {
             int u = prerequisites[i].first;
             int v = prerequisites[i].second;
             adj[u].push_back(v);
@@ -50,5 +50,6 @@ public:
         return true;
     }
 };
+
 {% endhighlight %}
 
