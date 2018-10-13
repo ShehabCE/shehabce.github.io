@@ -18,5 +18,18 @@ More details on [LinkedIn Profile][linkedin]
 I worked on a vast array of projects and teams where I have programmed in many languages like Python3, C, C++, JavaScript, Java, and Perl.
 More details on [Github Profile][github]
 
+
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <td><strong>Programming Languages</strong></td><td>C/C++</td><td>Python3</td>
+  </tr>
+  <tr>
+    <td><strong>Web Development</strong></td><td>HTML5/CSS/JS</td><td>NodeJS</td>
+  </tr>
+  <tr>
+    <td><strong>Technologies</strong></td><td>git</td><td>Linux</td>
+  </tr>
+</table>
+
 [linkedin]: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
 [github]: https://github.com/ShehabMMohamed
