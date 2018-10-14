@@ -36,9 +36,9 @@ Now, time for Red Black Tree!
 // an (RBT) Node structure.
 class RedBlackNode {
 public:
-	RedBlackNode* parent;
-	RedBlackNode* left;
-	RedBlackNode* right;
+	RedBlackNode *parent;
+	RedBlackNode *left;
+	RedBlackNode *right;
 	int val;
 	int color;	// Red -> 1 | Black -> 0
 	RedBlackNode(int k) : val(k) {
