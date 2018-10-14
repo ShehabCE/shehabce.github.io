@@ -29,7 +29,6 @@ Binary Search Tree is a collection of nodes with keys that follows a certain ord
 <ol>
 	<li>Each tree has a root node.</li>
 	<li>Each node can have up to 2 children</li>
-	<li>Each node has a left child and a right child. Its children can be NIL or can be nodes holding key value.</li>
 	<li>Nodes are ordered in a way where key(left) < key(root) < key(right).</li>
 </ol>
 
@@ -49,30 +48,16 @@ public:
 To focus on the most important operations which have the same time complexity. 
 <table cellpadding="0" cellspacing="0">
 	<tr>
-	<th>
-		<td>Operation</td>
-		<td>Best Case</td>
-		<td>Average Case</td>
-		<td>Worst Case</td>
-	</th>
+		<th>Operation</th><th>Best Case</th><th>Average Case</th><th>Worst Case</th>
 	</tr>
 	<tr>
-		<td>Search</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(N)</td>
+		<td>Search</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 	<tr>
-		<td>Insert</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(N)</td>
+		<td>Insert</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 	<tr>
-		<td>Delete</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(N)</td>
+		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 </table>
 
@@ -100,30 +85,16 @@ public:
 
 <table cellpadding="0" cellspacing="0">
 	<tr>
-	<th>
-		<td>Operation</td>
-		<td>Best Case</td>
-		<td>Average Case</td>
-		<td>Worst Case</td>
-	</th>
+		<th>Operation</th><th>Best Case</th><th>Average Case</th><th>Worst Case</th>
 	</tr>
 	<tr>
-		<td>Search</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
+		<td>Search</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 	<tr>
-		<td>Insert</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
+		<td>Insert</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 	<tr>
-		<td>Delete</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
-		<td>O(lgN)</td>
+		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
 
