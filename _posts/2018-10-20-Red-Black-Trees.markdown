@@ -5,10 +5,10 @@ date:   2018-10-20 08:40:00
 <!-- author: Shehab -->
 categories: Computer-Science
 tags: Algorithms
-cover:  "/assets/posts/RBT.JPG"
+cover:  "/assets/RBT.jpg"
 ---
 
-Red Black Trees! I've heard this name few times before and it scared me off because it looked complicated and I didn't have to use it when I was an undergrad. But hey, you can't judge things just by their title, right?. So whenever I think of Red Black Tree, I always remember this important keyword, <strong>Balance</strong>!
+Red-Black Trees! Though the name might say it is a complicated data structure, but it is not that hard given how powerful and useful it is in real world applications! C++ STL libraries such as set and map are implemented using Red-Black Trees! And one word to represent the core of Red Black Trees is, <strong>balance</strong>!
 
 A Red Black Tree is not a totally new datastructure, it is rather an augmented form of a very popular datastructure, Binary Search Trees! It is a <strong> Balanced </strong> Binary Search Tree that <strong>ALWAYS</strong> guarantee the dynamic set operations of time complexity O(logN) in the worst case where N is the number of nodes in the tree.
 <ul>
@@ -21,7 +21,7 @@ A Red Black Tree is not a totally new datastructure, it is rather an augmented f
 	<li> Minimum(T)</li>
 </ul>
 
-But first, for those of you who don't know Binary Search Trees (BST), I'll briefly explain it in this following section and then talk about the importance of a Red Black Tree that makes it an imporved version of a BST. If you already know BST, you can skip this part. 
+But first, for those of you who don't know Binary Search Trees (BST), I'll briefly explain it in this following section and then talk about the importance of a Red Black Tree as an improved version of a BST. If you already know BST, you can skip this part. 
 
 Okay, what is a Binary Search Tree?
 

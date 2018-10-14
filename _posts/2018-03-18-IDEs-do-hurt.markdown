@@ -4,7 +4,7 @@ title:  "IDEs do hurt, unless..."
 date:   2018-03-18 08:40:00
 <!-- author: Shehab -->
 categories: Computer-Science
-cover:  "/assets/posts/ides-do-hurt.png"
+cover:  "/assets/ides-do-hurt.png"
 ---
 
 One time I stumbled across a colleague of mine who was working on a project, and I always like to ask this traditional question, "What IDE are you using?" or "Which IDE is your favorite?". To those who don't know what is an IDE, it is an abbreviation for (Integrated Development Environment). In simple terms, its a software application that makes it easier for developers to code, build, debug, and many more. So IDE is basically a part of one's life whenever someone starts to work in software development. Anyhow, so my colleague replied to us and said, "I am not using an IDE for this project".
