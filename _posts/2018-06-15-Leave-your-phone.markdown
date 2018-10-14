@@ -19,11 +19,17 @@ Private life is much better. Its not a necessity to share everything you have or
 
 We all have personal records (PRs) that we want to achieve at some point, might as well start achieving it. Losing weight can be a PR. Becoming organized can be a PR. Spending more time with family can be a PR. Learn a new language can be a PR. Anything can be a PR. May I offer you a PR?
 
-Read! I can't tell you how amazing and more fulfilling it is to read a book. Any book.
-Play a musical instrument! Oh man it was awesome when I learned how to play Riptide and Friends' theme song on the guitar!
-Workout. Play any sport. Have this moment where you hate yourself for going to the gym. That's a PR right there!
-Be as adventurous as you can be. Whether its traveling to somewhere, hiking, or even going out for a walk regularly.
+<ul>
+	<li>Read! I can't tell you how amazing and more fulfilling it is to read a book. Any book.
+	</li>
+	<li>Play a musical instrument! Oh man it was awesome when I learned how to play Riptide on the guitar!
+	</li>
+	<li>Exercise. Play any sport. Have this moment where you hate yourself for going to the gym. That's a PR right there!
+	</li>
+	<li>Be as adventurous as you can be. Whether its traveling to somewhere, hiking, or even going out for a walk regularly.
+	</li>
+</ul>
 Catch up with old friends/colleagues. See what they've been up to.
-Think of yourself and others as a bunch of movies. If you wanna watch a certain movie, you go and watch it, that's it. If you wanna catch up with someone, you call up and see him/her, that's it. Weird metaphor I have to admit, but you get my point, don't use an platform to connect with someone when you can just see that person.
+Think of yourself and others as a bunch of movies. If you wanna watch a certain movie, you go and watch it, that's it. If you wanna catch up with someone, you call up and see him/her, that's it. Weird metaphor I have to admit, but you get my point, don't use a platform to connect with someone when you can just see that person.
 
-Its obvious that there are pros and cons to it, and I'm not saying that one should delete his/her accounts. All what I'm saying is simply that one should leave the phone and take a break every now and then. You know. Unplug.
+Its obvious that there are pros and cons to it, and I'm not saying that one should delete his/her accounts. All what I'm saying is simply that one should leave the phone and take a break every now and then. You know, unplug.

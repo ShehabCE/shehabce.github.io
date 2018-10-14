@@ -19,8 +19,7 @@ Sometimes we address ourselves as experts in certain fields just because we know
 
 But the more time you spend on something or the more details you dive into, the more you recognize your own ignorance that you had before, right? The more knowledge or experience we gain, the more we recognize how fools we were (lesser confident), but afterwards we gain more confidence as we go.
 
-
-<a href="/assets/posts/DK.jpeg" data-lightbox="DK" data-title="DK">Dunning Kruger Effect</a>
+<img src="/assets/posts/DK.jpeg">
 
 
 There were times where we acted stupid, from a mild degree to a "King of Stupidity" degree. But that's okay. Who's gonna judge, huh? We all have to pass "Mount Stupid" at some point, but its us who decide whether to stay in that region (self-assurance) or to move on (self-evaluation). And really the only solution to avoid all this is regular self-evaluation. Its pretty normal if you've felt you were an Economist just because you read a chapter on Economics. What's not normal though, is willingly impersonating this identity with that lack of knowledge.
