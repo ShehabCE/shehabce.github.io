@@ -44,6 +44,7 @@ public:
 		right = NULL;
 	}; 
 };
+{% endhighlight %}
 
 To focus on the most important operations which have the same time complexity. 
 <table cellpadding="0" cellspacing="0">
@@ -61,12 +62,13 @@ To focus on the most important operations which have the same time complexity.
 		<td>O(lgN)</td>
 		<td>O(N)</td>
 	</tr>
+	<tr>
 		<td>Insert</td>
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
 		<td>O(N)</td>
 	</tr>
-		<tr>
+	<tr>
 		<td>Delete</td>
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
@@ -95,6 +97,7 @@ public:
 	};
 };
 {% endhighlight %}
+
 <table cellpadding="0" cellspacing="0">
 	<tr>
 	<th>
@@ -110,12 +113,13 @@ public:
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
 	</tr>
+	<tr>
 		<td>Insert</td>
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
 	</tr>
-		<tr>
+	<tr>
 		<td>Delete</td>
 		<td>O(lgN)</td>
 		<td>O(lgN)</td>
