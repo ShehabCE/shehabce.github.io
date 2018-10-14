@@ -3,7 +3,7 @@ layout: post
 title:  "I graduated, now what?"
 date:   2018-05-18 05:43:29
 author: Shehab
-categories: Food-For-Thought
+categories: B
 cover:  "/assets/i-graduated.png"
 ---
 

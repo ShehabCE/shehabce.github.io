@@ -3,7 +3,7 @@ layout: post
 title:  "Leave your phone"
 date:   2018-06-15 08:40:00
 author: Shehab
-categories: Food-For-Thought
+categories: B
 cover:  "/assets/ides-do-hurt.png"
 ---
 
