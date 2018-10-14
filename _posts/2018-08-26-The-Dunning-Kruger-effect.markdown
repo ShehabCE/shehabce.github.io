@@ -2,7 +2,7 @@
 layout: post
 title:  "The Dunning Kruger Effect"
 date:   2018-08-26 12:40:00
-<!-- author: Shehab -->
+author: Shehab
 categories: Food-For-Thought
 cover:  "/assets/DK.jpeg"
 ---

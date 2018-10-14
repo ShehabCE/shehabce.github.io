@@ -2,7 +2,7 @@
 layout: post
 title:  "Red Black Trees"
 date:   2018-10-20 08:40:00
-<!-- author: Shehab -->
+author: Shehab
 categories: Computer-Science
 tags: Algorithms
 cover:  "/assets/RBT.jpg"
@@ -44,7 +44,6 @@ public:
 	}; 
 };
 {% endhighlight %}
-
 To focus on the most important operations which have the same time complexity. 
 <table cellpadding="0" cellspacing="0">
 	<tr>
@@ -60,11 +59,8 @@ To focus on the most important operations which have the same time complexity.
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 </table>
-
 Now, time for Red Black Tree!
-
 ...
-
 {% highlight c++ %}
 // an (RBT) Node structure.
 class RedBlackNode {
@@ -82,7 +78,6 @@ public:
 	};
 };
 {% endhighlight %}
-
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<th>Operation</th><th>Best Case</th><th>Average Case</th><th>Worst Case</th>
@@ -97,7 +92,5 @@ public:
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
-
 RBT Insert Operation
-
 RBT Delete Operation
