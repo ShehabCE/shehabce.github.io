@@ -5,7 +5,7 @@ date:   2018-10-20 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
-cover:  "/assets/posts/rbtt.png"
+cover:  "/assets/posts/RBT.jpg"
 ---
 
 Red-Black Trees! Though the name might say it is a complicated data structure, but it is not that hard given how powerful and useful it is in real world applications! C++ STL libraries such as set and map are implemented using Red-Black Trees! And one word to represent the core of Red Black Trees is, <strong>balance</strong>!
