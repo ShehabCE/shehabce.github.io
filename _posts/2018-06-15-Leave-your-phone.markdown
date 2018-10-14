@@ -3,8 +3,8 @@ layout: post
 title:  "Leave your phone"
 date:   2018-06-15 08:40:00
 author: Shehab
-categories: B
-cover:  "/assets/ides-do-hurt.png"
+categories: Food-for-thought
+cover:  "/assets/posts/ides-do-hurt.png"
 ---
 
 Long time ago, I attended a session called "Online Presence" where the speaker was talking about how should one be more present on social media using multiple platforms like Facebook, Instagram, Snapchat, and so on. It was weird to be honest because the guy kept stressing on the fact that we should keep up-to-date with everything and everyone through social media. But... is that really a sociable behavior? Because I'm one of the young people who stay up late staring at the phone checking out Instagram and Facebook for hours, aaaand that's pretty much the opposite of it.

@@ -3,8 +3,8 @@ layout: post
 title:  "The Dunning Kruger Effect"
 date:   2018-08-26 12:40:00
 author: Shehab
-categories: B
-cover:  "/assets/DK.jpeg"
+categories: Food-for-thought
+cover:  "/assets/posts/DK.jpeg"
 ---
 
 Someone asks you to rate yourself in a specific skill, you decided to give a good rating score since you feel you're good at it, but a third person came in and gave a much lower rating score of your skill. You feel offended, maybe angry about this. "How can someone give me a low score?! I'm good at this! He/She doesn't know me well!!" This is an example of what it is called, the Dunning-Kruger effect.
@@ -19,7 +19,7 @@ Sometimes we address ourselves as experts in certain fields just because we know
 
 But the more time you spend on something or the more details you dive into, the more you recognize your own ignorance that you had before, right? The more knowledge or experience we gain, the more we recognize how fools we were (lesser confident), but afterwards we gain more confidence as we go.
 
-<img src="/assets/DK.jpeg">
+<img src="/assets/posts/DK.jpeg">
 
 
 There were times where we acted stupid, from a mild degree to a "King of Stupidity" degree. But that's okay. Who's gonna judge, huh? We all have to pass "Mount Stupid" at some point, but its us who decide whether to stay in that region (self-assurance) or to move on (self-evaluation). And really the only solution to avoid all this is regular self-evaluation. Its pretty normal if you've felt you were an Economist just because you read a chapter on Economics. What's not normal though, is willingly impersonating this identity with that lack of knowledge.

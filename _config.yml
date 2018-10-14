@@ -48,11 +48,11 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: A
-    desc: "Some thoughtful stuff."
+  - cat: Computer-Science
+    desc: "..."
 
-  - cat: B
-    desc: "Some tech stuff."
+  - cat: Food-for-thought
+    desc: "..."
 
   # - cat: Projects
   #   desc: "Showcasing my work."
