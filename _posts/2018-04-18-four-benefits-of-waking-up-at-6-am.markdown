@@ -4,12 +4,12 @@ title:  "Four Benefits of waking up at 6 AM"
 date:   2018-04-18 04:12:00
 author: Shehab
 categories: Food-for-thought
-cover:  "/assets/posts/i-graduated.png"
+<!-- cover:  "/assets/posts/i-graduated.png" -->
 ---
 
 Ever felt the ambition and the eagerness to do or learn a lot of things in parallel but always end up struggling because you don't have free time? You're shooting down many goals because of lack of time, or at least that's what we think it is. With all the available technologies to use and ideas we dream of, we fantasize of how to become a "perfect" self. Everyone has his/her own definition of perfectionism like having strict diet plans, regimented workout schedules, flawless relationships, glorified tracks of work, you name it. But being a perfectionist is a flawed concept because there is no such thing as perfection. There is however, enjoyment, risk-taking, mistake-making, learning, hard-working, and enjoyment once more. We all want to do many things at the same time, but what we need to do is, relax, not stress out, drop the "Perfectionist" Hat and wear the "Hard Worker" Hat, prioritize what we want to do, and work towards it without being afraid of making mistakes. But why am I writing about benefits of waking up early? Because regulated sleep cycle is a catalyst to achieve goals we desire. If you sleep properly, you won't struggle with "lack of time". And I believe there are four amazing outcomes when it comes to waking up early.
 
-<ul>
+<ol>
 
 
 <li>
@@ -32,7 +32,7 @@ Ever felt the ambition and the eagerness to do or learn a lot of things in paral
 	<span>Whether you're a student or a job-committed person, if you don't construct the habit of time-management, you'll always feel you don't have time for anything. Taking control of your sleep cycle is just the first habit of many to come! Because of you wake up at 6 AM, you will try to grow different habits like efficiency, productivity, and planning. You'll feel the urge to use these habits as tools that will help you reach your goals.
 	</span>
 </li>
-</ul>
+</ol>
 
 Applications of habit construction could be like:
 <ul>
