@@ -44,6 +44,8 @@ public:
 	}; 
 };
 {% endhighlight %}
+BSTs are useful when it comes to queries such as searching for a key in a tree that provides lookup of(lgN) faster than going through the array of elements in O(N). Cutting the search cost from O(N) to O(lgN) is significant to applications that can only afford a logarithmic operation in that structure. 
+However, the problem arises when the tree is not balanced, adding sorted elements in a tree will give a skewed shape of the tree where all the keys are on one branch and not distributed on two branches. This skewed shape can very much be a linked list where the operations cost have become O(N) which is no better than going through the entire array. BSTs can not guarantee logarithmic cost of operations in the worst case, because in the worst case, the tree can become imbalanced and impractical. 
 To focus on the most important operations which have the same time complexity. 
 <table cellpadding="0" cellspacing="0">
 	<tr>
@@ -61,6 +63,14 @@ To focus on the most important operations which have the same time complexity.
 </table>
 <hr>
 Now, time for Red Black Tree!
+There are 4 properties that must hold in a Red-Black Tree:
+<ol>
+<li>Every node must be colored black or red.</li>
+<li>Root node and leaves are always black.</li>
+<li>For any red node, its children must be black. No red node can have a red child.</li>
+<li>For node x, any simple path from x to its desendent leaves must have the same number of black nodes. Also known as black height.</li>
+</ol>
+As you can see, the node structure of a RB tree is the same as BST node structure, just augmented with extra bit of information (color).
 ...
 {% highlight c++ %}
 // an (RBT) Node structure.
@@ -79,6 +89,18 @@ public:
 	};
 };
 {% endhighlight %}
+However, to ensure a logarithmic time complexity in set of operations, each update query (Insert/Delete) is followed by another method called RB-INSERT-FIXUP and RB-DELETE-FIXUP that provides some maintenance to the tree structure to make sure the four enlisted properties are well preserved, and if there is a violation, it is fixed.
+They are not super easy I have to say, but you gotta admire the amount of effort and intellect put into this data structure to handle these cases. Let's start with Insert and then Delete operations.
+<h2>RBT Insert Operation</h2>
+Everytime we insert a new node into our RBT, we need to do some maintenance checking to preserve the properties of the Red-Black Tree in case any violation occurs. There are two possible violations upon insertion:
+<ol>
+	<li>Red Violation: A red node has a red child.</li>
+	<li>Black Violation: One path has more black nodes than another path.</li>
+</ol>
+There are <strong>3 cases</strong> to handle when we insert a new node to preserve the balance, and we handle those cases with two tools; either by some pointer structure manipulation (rotation) or node reconfiguration (recoloring).
+<hr>
+<h2>RBT Delete Operation</h2>
+<hr>
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<th>Operation</th><th>Best Case</th><th>Average Case</th><th>Worst Case</th>
@@ -93,14 +115,3 @@ public:
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
-<h2>RBT Insert Operation</h2>
-Everytime we insert a new node into our RBT, we need to do some maintenance checking to preserve the properties of the Red-Black Tree in case any violation occurs. There are two possible violations upon insertion:
-<ol>
-	<li>Red Violation: A red node has a red child.</li>
-	<li>Black Violation: One path has more black nodes than another path.</li>
-</ol>
-There are <strong>3 cases</strong> to handle when we insert a new node to preserve the balance, and we handle those cases with two tools; either by some pointer structure manipulation (rotation) or node reconfiguration (recoloring).
-
-<hr>
-<h2>RBT Delete Operation</h2>
-<hr>
