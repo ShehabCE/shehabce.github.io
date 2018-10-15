@@ -22,6 +22,7 @@ A Red Black Tree is not a totally new datastructure, it is rather an augmented f
 
 But first, for those of you who don't know Binary Search Trees (BST), I'll briefly explain it in this following section and then talk about the importance of a Red Black Tree as an improved version of a BST. If you already know BST, you can skip this part. 
 
+<hr> 
 Okay, what is a Binary Search Tree?
 
 Binary Search Tree is a collection of nodes with keys that follows a certain ordering property. 
@@ -58,6 +59,7 @@ To focus on the most important operations which have the same time complexity.
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 </table>
+<hr>
 Now, time for Red Black Tree!
 ...
 {% highlight c++ %}
@@ -92,4 +94,6 @@ public:
 	</tr>
 </table>
 RBT Insert Operation
+<hr>
 RBT Delete Operation
+<hr>
