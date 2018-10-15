@@ -93,7 +93,14 @@ public:
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
-RBT Insert Operation
+<h2>RBT Insert Operation</h2>
+Everytime we insert a new node into our RBT, we need to do some maintenance checking to preserve the properties of the Red-Black Tree in case any violation occurs. There are two possible violations upon insertion:
+<ol>
+	<li>Red Violation: A red node has a red child.</li>
+	<li>Black Violation: One path has more black nodes than another path.</li>
+</ol>
+There are <strong>3 cases</strong> to handle when we insert a new node to preserve the balance, and we handle those cases with two tools; either by some pointer structure manipulation (rotation) or node reconfiguration (recoloring).
+
 <hr>
-RBT Delete Operation
+<h2>RBT Delete Operation</h2>
 <hr>
