@@ -71,6 +71,8 @@ There are 4 properties that must hold in a Red-Black Tree:
 <li>For any red node, its children must be black. No red node can have a red child.</li>
 <li>For node x, any simple path from x to its desendent leaves must have the same number of black nodes. Also known as black height.</li>
 </ol>
+
+<img src="/assets/posts/RBTree.png"> 
 As you can see, the node structure of a RB tree is the same as BST node structure, just augmented with extra bit of information (color).
 ...
 {% highlight c++ %}
