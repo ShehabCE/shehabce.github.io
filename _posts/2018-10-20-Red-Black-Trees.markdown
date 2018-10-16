@@ -24,6 +24,7 @@ A Red Black Tree is not a totally new datastructure, it is rather an augmented f
 But first, for those of you who don't know Binary Search Trees (BST), I'll briefly explain it in this following section and then talk about the importance of a Red Black Tree as an improved version of a BST. If you already know BST, you can skip this part. 
 
 <hr> 
+
 Okay, what is a Binary Search Tree?
 
 Binary Search Tree is a collection of nodes with keys that follows a certain ordering property. 
@@ -71,7 +72,6 @@ There are 4 properties that must hold in a Red-Black Tree:
 <li>For any red node, its children must be black. No red node can have a red child.</li>
 <li>For node x, any simple path from x to its desendent leaves must have the same number of black nodes. Also known as black height.</li>
 </ol>
-
 <img src="/assets/posts/RBTree.png"> 
 As you can see, the node structure of a RB tree is the same as BST node structure, just augmented with extra bit of information (color).
 ...
@@ -94,6 +94,9 @@ public:
 {% endhighlight %}
 However, to ensure a logarithmic time complexity in set of operations, each update query (Insert/Delete) is followed by another method called RB-INSERT-FIXUP and RB-DELETE-FIXUP that provides some maintenance to the tree structure to make sure the four enlisted properties are well preserved, and if there is a violation, it is fixed.
 They are not super easy I have to say, but you gotta admire the amount of effort and intellect put into this data structure to handle these cases. Let's start with Insert and then Delete operations.
+<h2>Rotation</h2>
+<img src="/assets/posts/rotations.png">
+<p align="center"><I>source ["CLRS, Introduction to Algorithms"]</I></p>
 <h2>RBT Insert Operation</h2>
 Everytime we insert a new node into our RBT, we need to do some maintenance checking to preserve the properties of the Red-Black Tree in case any violation occurs. There are two possible violations upon insertion:
 <ol>
