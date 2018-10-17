@@ -96,7 +96,7 @@ However, to ensure a logarithmic time complexity in set of operations, each upda
 They are not super easy I have to say, but you gotta admire the amount of effort and intellect put into this data structure to handle these cases. Let's start with Insert and then Delete operations, after rotation!
 <h2>Rotation... but why?</h2>
 There might be cases where the height of a branch might be larger than the height of the other branch, giving it this imbalanced shape. So by pivoting around two nodes X and Y, you can re-balance the tree! 
-<h2> So There are 4 cases of an imbalanced tree. </h2>
+<h2> So There are 4 cases for an imbalanced tree. </h2>
 <ul>
 	<li>Left Left Case (LL)</li>
 	<li>Left Right Case (LR)</li>
@@ -105,19 +105,18 @@ There might be cases where the height of a branch might be larger than the heigh
 </ul>
 <div class="Image Row">
 	<div class="Image Col">
-		<img src="/assets/posts/LL.png">
+		<img src="/assets/posts/LL.png" style="width: 200px; height: 200px;">
 	</div>
 	<div class="Image Col">
-		<img src="/assets/posts/LR.png">
+		<img src="/assets/posts/LR.png" style="width: 200px; height: 200px;">
 	</div>
 	<div class="Image Col">
-		<img src="/assets/posts/RL.png">
+		<img src="/assets/posts/RL.png" style="width: 200px; height: 200px;">
 	</div>
 	<div class="Image Col">
-		<img src="/assets/posts/RR.png">
+		<img src="/assets/posts/RR.png" style="width: 200px; height: 200px;">
 	</div>
 </div>
-
 <img src="/assets/posts/rotations.png">
 <p align="center"><I>source ["CLRS, Introduction to Algorithms"]</I></p>
 <h2>RBT Insert Operation</h2>
