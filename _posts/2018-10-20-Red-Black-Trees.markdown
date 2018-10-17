@@ -104,18 +104,10 @@ There might be cases where the height of a branch might be larger than the heigh
 	<li>Right Right Case (RR)</li>
 </ul>
 <div class="Image Row">
-	<div class="Image Col">
-		<img src="/assets/posts/LL.png" style="width: 200px; height: 200px;">
-	</div>
-	<div class="Image Col">
-		<img src="/assets/posts/LR.png" style="width: 200px; height: 200px;">
-	</div>
-	<div class="Image Col">
-		<img src="/assets/posts/RL.png" style="width: 200px; height: 200px;">
-	</div>
-	<div class="Image Col">
-		<img src="/assets/posts/RR.png" style="width: 200px; height: 200px;">
-	</div>
+		<img src="/assets/posts/LL.png" style="width: 150px; height: 150px;">
+		<img src="/assets/posts/LR.png" style="width: 150px; height: 150px;">
+		<img src="/assets/posts/RL.png" style="width: 150px; height: 150px;">
+		<img src="/assets/posts/RR.png" style="width: 150px; height: 150px;">
 </div>
 <img src="/assets/posts/rotations.png">
 <p align="center"><I>source ["CLRS, Introduction to Algorithms"]</I></p>
