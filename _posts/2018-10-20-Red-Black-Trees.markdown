@@ -93,8 +93,23 @@ public:
 };
 {% endhighlight %}
 However, to ensure a logarithmic time complexity in set of operations, each update query (Insert/Delete) is followed by another method called RB-INSERT-FIXUP and RB-DELETE-FIXUP that provides some maintenance to the tree structure to make sure the four enlisted properties are well preserved, and if there is a violation, it is fixed.
-They are not super easy I have to say, but you gotta admire the amount of effort and intellect put into this data structure to handle these cases. Let's start with Insert and then Delete operations.
-<h2>Rotation</h2>
+They are not super easy I have to say, but you gotta admire the amount of effort and intellect put into this data structure to handle these cases. Let's start with Insert and then Delete operations, after rotation!
+<h2>Rotation... but why?</h2>
+There might be cases where the height of a branch might be larger than the height of the other branch, giving it this imbalanced shape. So by pivoting around two nodes X and Y, you can re-balance the tree! 
+<div class="Image Row">
+	<div class="Image Col">
+		<img src="/assets/posts/LL.png">
+	</div>
+	<div class="Image Col">
+		<img src="/assets/posts/LR.png">
+	</div>
+	<div class="Image Col">
+		<img src="/assets/posts/RL.png">
+	</div>
+	<div class="Image Col">
+		<img src="/assets/posts/RR.png">
+	</div>
+</div>
 <img src="/assets/posts/rotations.png">
 <p align="center"><I>source ["CLRS, Introduction to Algorithms"]</I></p>
 <h2>RBT Insert Operation</h2>
