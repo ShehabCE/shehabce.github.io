@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: Shehab Abdel-Salam
-subtitle: "Writing articles or writing code. Sometimes I do both."
+subtitle: "Writing articles. Writing code. Sometimes I do both."
 email: shehab_m@aucegypt.edu
 name: Shehab Abdel-Salam
 description: >
-   Writing articles or writing code. Sometimes I do both.
+   Writing articles. Writing code. Sometimes I do both.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
