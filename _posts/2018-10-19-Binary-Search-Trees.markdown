@@ -44,7 +44,7 @@ BSTs are useful when it comes to queries such as searching for a key in a tree t
 <code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
 <code>Height of the tree: h = log(n+1)</code><br>
 
-<h4>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</h4> 
+<h6>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</h6> 
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<th>Operation</th><th>Search()</th><th>Delete()</th><th>Insert()</th><th>Max()/Min()</th>
@@ -59,8 +59,6 @@ BSTs are useful when it comes to queries such as searching for a key in a tree t
 		<td>Binary Search Tree (balanced)</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
-
-<hr>
 
 Okay, since we already praised the fact that BST can search for an element in logarithmic time. How does it actually work? Remember that the nodes are distributed in the binary tree with the order key(left child) < key(root) < key(right child), so we know that if we want to find the smallest key we just have to go down to the leftmost node in the tree, same idea applies to finding the largest key in the tree.
 
@@ -84,7 +82,7 @@ There are three types of depth-first search. They don't differ in speed or effic
 </ol>
 
 <h4>1. Pre-Order Traversal</h4>
-Traversing through the BST by visiting the parent node first, then its left child, and then its right child. 
+Traversing the BST by visiting the parent node first, then its left child, and then its right child. 
 <p align="center">ROOT -> LEFT CHILD -> RIGHT CHILD</p>
 {% highlight c++ %}
 void PreOrder(TreeNode *t) {
@@ -95,7 +93,7 @@ void PreOrder(TreeNode *t) {
 {% endhighlight %}
 
 <h4>2. In-Order Traversal</h4>
-Traversing through the BST by visiting the left child first, then the parent, and then its right child. Its also the sorted order of visiting the tree.
+Traversing the BST by visiting the left child first, then the parent, and then its right child. Its also the sorted order of visiting the tree.
 <p align="center">LEFT CHILD -> ROOT -> RIGHT CHILD</p>
 {% highlight c++ %}
 void InOrder(TreeNode *t) {
@@ -106,7 +104,7 @@ void InOrder(TreeNode *t) {
 {% endhighlight %}
 
 <h4>3. Post-Order Traversal</h4>
-Traversing through the BST by visiting the left child first, then the right child, and then the parent.
+Traversing the BST by visiting the left child first, then the right child, and then the parent.
 <p align="center">LEFT CHILD -> RIGHT CHILD -> ROOT</p>
 {% highlight c++ %}
 void PostOrder(TreeNode *t) {
@@ -123,7 +121,7 @@ There is only one type of breadth-first search, the level order traversal.
 	<li>Level-Order Traversal</li>
 </ol>
 <h4>Level-Order Traversal</h4>
-Traversing through the BST level by level from leftmost to rightmost. Start from the root node at level 0, go to level 1, go through all nodes in level 1 from left to right, go to level 2 and so on.
+Traversing the BST level by level from leftmost to rightmost. Start from the root node at level 0, go to level 1, go through all nodes in level 1 from left to right, go to level 2 and so on.
 
 <hr>
 
