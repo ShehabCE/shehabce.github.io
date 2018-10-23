@@ -141,7 +141,7 @@ Unlike Insertion, deleting a node might be tricky and less obvious. There are th
 Deleting a leaf node is the simplest case. It doesn't have children so there won't be any tree split. Simply delete it. 
 
 <h4> 2. Node (N) to delete has one child </h4>
-Say we want to delete <strong>N</strong> where its child is <strong>C</strong> and its parent is <strong>P</strong>. Deleting <strong>N</strong> will cause a tree split between <strong>P</strong> and <strong>C</strong>. So you just need to bypass <strong>N</strong> where you link <strong>C</strong> to <strong>P</strong> as <strong>P</strong>'s new child instead of <strong>N</strong>, and then safely delete old <strong>N</strong>.
+Say we want to delete (N) where its child is (C) and its parent is (P). Deleting (N) will cause a tree split between (P) and (C). So you just need to bypass (N) where you link (C) to (P) as (P)'s new child instead of (N), and then safely delete old (N).
 
 <h4> 3. Node (N) to delete has two children </h4>
 This scenario again splits the tree into two sub-trees. There are two solutions for it. 
