@@ -13,7 +13,7 @@ So we can have an array of elements and do a lot of things with that array like;
 <br>
 Binary Search Tree is a dynamic data structure with a collection of nodes that follow a certain ordering property.  
 <img src="/assets/posts/BST.png">
-<p align="center">Here's an example of a Binary Search Tree.</p>
+<p align="center">An example of a Binary Search Tree.</p>
 <h4>Properties of a BST</h4>
 <ol>
 	<li>Each tree has a root node.</li>
