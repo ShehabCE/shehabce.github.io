@@ -44,7 +44,7 @@ BSTs are useful when it comes to queries such as searching for a key in a tree t
 <code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
 <code>Height of the tree: h = log(n+1)</code><br>
 
-<h6>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</h6> 
+<strong>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</strong>
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<th>Operation</th><th>Search()</th><th>Delete()</th><th>Insert()</th><th>Max()/Min()</th>
