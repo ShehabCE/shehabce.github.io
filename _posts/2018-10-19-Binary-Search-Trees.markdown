@@ -62,8 +62,6 @@ BSTs are useful when it comes to queries such as searching for a key in a tree t
 
 Okay, since we already praised the fact that BST can search for an element in logarithmic time. How does it actually work? Remember that the nodes are distributed in the binary tree with the order key(left child) < key(root) < key(right child), so we know that if we want to find the smallest key we just have to go down to the leftmost node in the tree, same idea applies to finding the largest key in the tree.
 
-<br>
-
 <h2>BST Search</h2>
 
 Since BST is a non-linear data structure, there is no unique way for traversal. There are two ways to traverse in the tree, both of O(lgN):
