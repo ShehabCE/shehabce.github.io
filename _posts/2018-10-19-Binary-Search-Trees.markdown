@@ -81,7 +81,7 @@ There are three types of depth-first search. They don't differ in speed or effic
 
 <h4>1. Pre-Order Traversal</h4>
 Traversing the BST by visiting the parent node first, then its left child, and then its right child. 
-<p align="center">ROOT -> LEFT CHILD -> RIGHT CHILD</p>
+<p align="center"><I>root -> left child -> right child</I></p>
 {% highlight c++ %}
 void PreOrder(TreeNode *t) {
 	Visit(t);	// visit root.
@@ -92,7 +92,7 @@ void PreOrder(TreeNode *t) {
 
 <h4>2. In-Order Traversal</h4>
 Traversing the BST by visiting the left child first, then the parent, and then its right child. Its also the sorted order of visiting the tree.
-<p align="center">LEFT CHILD -> ROOT -> RIGHT CHILD</p>
+<p align="center"><I>left child -> root -> right child</I></p>
 {% highlight c++ %}
 void InOrder(TreeNode *t) {
 	InOrder(t->left);
@@ -103,7 +103,7 @@ void InOrder(TreeNode *t) {
 
 <h4>3. Post-Order Traversal</h4>
 Traversing the BST by visiting the left child first, then the right child, and then the parent.
-<p align="center">LEFT CHILD -> RIGHT CHILD -> ROOT</p>
+<p align="center"><I>left child -> right child -> root</I></p>
 {% highlight c++ %}
 void PostOrder(TreeNode *t) {
 	PostOrder(t->left);
