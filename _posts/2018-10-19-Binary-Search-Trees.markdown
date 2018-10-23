@@ -41,7 +41,7 @@ Since there is an ordering property in this tree, standard operations like Searc
 BSTs are useful when it comes to queries such as searching for a key in a tree that provides lookup of(h) where h is the height of the tree, and it is proved that h = log(N), faster than going through the array of elements in O(N). Cutting the search cost from O(N) to O(lgN) is significant to applications that can only afford a logarithmic operation in that structure.
 <br>
 
-<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + 2^h-1 = 2^h - 1</code><br>
+<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
 <code>Height of the tree: h = log(n+1)</code><br>
 
 <h4>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</h4> 
