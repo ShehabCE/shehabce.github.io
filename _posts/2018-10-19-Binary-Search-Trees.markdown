@@ -121,6 +121,24 @@ There is only one type of breadth-first search, the level order traversal.
 <h4>Level-Order Traversal</h4>
 Traversing the BST level by level from leftmost to rightmost. Start from the root node at level 0, go to level 1, go through all nodes in level 1 from left to right, go to level 2 and so on.
 
+{% highlight c++ %}
+void LevelOrder(TreeNode *t) {
+	if(!t)	return NULL;
+	queue<TreeNode*> q;
+	q.push(t);
+	while(!q.empty()) {
+		TreeNode* temp = q.front();
+		q.pop();
+		Visit(temp);
+		if(temp->left)
+			q.push(temp->left);
+		if(temp->right)
+			q.push(temp->right);
+	}
+}
+{% endhighlight %}
+
+
 <hr>
 
 <h2>BST Insertion </h2>
