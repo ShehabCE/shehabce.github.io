@@ -22,7 +22,7 @@ More details on [Github Profile][github]
 	<li>Experienced in programming with C/C++ and Python3.</li>
 	<li>Good background in Datastructures and Algorithms.</li>
 	<li>Familiar with Web Development in NodeJS, Django, HTML5/CSS/JS.</li>
-	<li>Experienced with git and linux-based systems.</li>
+	<li>Experienced with git, dockers, and linux-based systems.</li>
 </ul>
 
 [linkedin]: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
