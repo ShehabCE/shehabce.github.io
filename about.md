@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/Shehab.png" title="Profile Picture" class="profile">
 
-My name is Shehab Abdel-Salam, I'm an AUC fresh grad (Fall 2012-Fall 2017), majored in Computer Engineering with a minor in Business Adminstration. I'm a self-taught developer who is always eager to learn about new technologies and recent innovations. I am a passionate writer with a fond of teaching and had some work experience both as a Columnist and as a Teaching Assistant.
+My name is Shehab Abdel-Salam, I'm an AUC fresh grad (Fall 17'), majored in Computer Engineering with a minor in Business Adminstration. I'm a self-taught developer who is always eager to learn about new technologies and recent innovations. I am a passionate writer with a fond of teaching and had some work experience both as a Columnist and as a Teaching Assistant.
 
 I'm currently pursuing my Masters in Computer Science at The American University in Cairo (Spring 2018-Present) with a goal to develop expertise in both Machine Learning and Computer Vision. 
 
