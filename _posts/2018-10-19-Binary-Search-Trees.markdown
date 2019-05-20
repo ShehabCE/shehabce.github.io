@@ -192,10 +192,5 @@ The problem arises when the tree is not balanced, adding sorted elements in a tr
 	</tr>
 </table>
 
-Curious about self-balancing trees? Take a look at <a href="https://shehabmmohamed.github.io/computer-science/2018/10/20/Red-Black-Trees.html" target="_blank">Red-Black Trees</a>.
+<!-- Curious about self-balancing trees? Take a look at <a href="https://shehabmmohamed.github.io/computer-science/2018/10/20/Red-Black-Trees.html" target="_blank">Red-Black Trees</a>. -->
 
-<h3>Resources used for this article</h3>
-<ul>
-	<li>Introduction To Algorithms, Third Edition by C.L.R.S.</li>
-	<li><a href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/" target="_blank">GeeksForGeeks-BinarySearchTree</a></li>
-</ul>
