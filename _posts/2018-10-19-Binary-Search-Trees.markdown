@@ -192,5 +192,4 @@ The problem arises when the tree is not balanced, adding sorted elements in a tr
 	</tr>
 </table>
 
-<!-- Curious about self-balancing trees? Take a look at <a href="https://shehabmmohamed.github.io/computer-science/2018/10/20/Red-Black-Trees.html" target="_blank">Red-Black Trees</a>. -->
 
