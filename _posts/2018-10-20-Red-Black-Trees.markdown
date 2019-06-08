@@ -5,7 +5,7 @@ date:   2019-06-06 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
-cover: "/assets/posts/RBTree.png"
+cover: "/assets/posts/RBT.png"
 ---
 
 Red-Black Trees! where C++ STL libraries such as set, multiset, and map are implemented using Red-Black Trees as one of many other balanced trees. So a one word to represent the core of Red Black Trees is, <strong>balance</strong>!
@@ -31,7 +31,7 @@ There are 4 properties that must hold in a Red-Black Tree:
 	<li>For node x, any simple path from x to its descendent leaf must have the same number of black nodes. Also known as black height bh(x).</li>
 </ol>
 
-<img src="/assets/posts/RBTree.png"> 
+<img src="/assets/posts/RBT.png"> 
 As you can see, the node structure of a RB tree is the same as BST node structure, just augmented with an extra bit of information, its color.
 ...
 {% highlight c++ %}
