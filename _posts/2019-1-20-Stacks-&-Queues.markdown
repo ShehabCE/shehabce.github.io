@@ -5,7 +5,7 @@ date:   2019-01-20 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
-cover: "/assets/posts/"
+cover: "/assets/posts/stk_que.jpg"
 ---
 
 All sorts of applications can hold large amount of data for it to function, and storing data in a proper structure helps the applications to run efficiently. Datastructure is how we manage our stored information and more conveniently, operate on it.

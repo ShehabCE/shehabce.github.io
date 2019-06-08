@@ -34,6 +34,7 @@ There are 4 properties that must hold in a Red-Black Tree:
 <img src="/assets/posts/RBT.png"> 
 <p align="center">An example of a Red Black Tree.</p>
 
+
 As you can see, the node structure of a RB tree is the same as BST node structure, just augmented with an extra bit of information, its color.
 ...
 {% highlight c++ %}
