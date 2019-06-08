@@ -106,13 +106,13 @@ When it comes to implementation, a queue is viewed as a circular array with two 
 template<typename T>
 class SimpleQueue {
 public:
-	SimpleQueue(int size);			// Class Constructor.
-	void enqueue(const T& e);		// adds element to end of the queue.
-	T dequeue();				// removes the element from front of the queue.
-	T queueFront();				// retrieves front element without removing it.
-	bool IsEmpty();				// checks if queue is empty.
-	bool IsFull();				// checks if queue is full.
-	~SimpleQueue();				// Class Destructor.
+	SimpleQueue(int size);		// Class Constructor.
+	void enqueue(const T& e);	// adds element to end of the queue.
+	T dequeue();			// removes the element from front of the queue.
+	T queueFront();			// retrieves front element without removing it.
+	bool IsEmpty();			// checks if queue is empty.
+	bool IsFull();			// checks if queue is full.
+	~SimpleQueue();			// Class Destructor.
 };
 {% endhighlight %}
 
