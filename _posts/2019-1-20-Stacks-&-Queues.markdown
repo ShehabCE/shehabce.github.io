@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stacks & Queues"
-date:   2018-10-20 08:40:00
+date:   2019-01-20 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
@@ -27,14 +27,14 @@ Let's start with stacks, a LIFO datastructure used for retrieval/insertion of th
 When it comes to time complexity...
 <table cellpadding="0" cellspacing="0">
 	<tr>
-		<th>Push</th><th>(Add to top)</th><th>O(1)</th>
+		<td>Push</td><td>(Add to top)</td><td>O(1)</td>
 	</tr>
 	<tr>
 		<td>Pop</td><td>(Remove from top)</td><td>O(1)</td>
 	</tr>
 </table>
 
-Implementing stacks is ridiciously easy, but still has to be implemented in order to understand it thoroughly. All insertions and deletions are done at one end called top. A stack can be implemented in two ways:
+Implementing stacks is ridiciously easy, but still has to be implemented in order to understand it thoroughly. All insertions and deletions are done at one end called top. A stack can be implemented in two ways...
 <ol>
 	<li>Using Dynamic Arrays</li>
 	<li>Using Linked Lists</li>
@@ -88,14 +88,14 @@ Back to Queues, it is a linear list of elements where access is by order of inse
 When it comes to time complexity...
 <table cellpadding="0" cellspacing="0">
 	<tr>
-		<th>Enqueue</th><th>(Add to Rear)</th><th>O(1)</th>
+		<td>Enqueue</td><td>(Add to Rear)</td><td>O(1)</td>
 	</tr>
 	<tr>
 		<td>Dequeue</td><td>(Remove from Front)</td><td>O(1)</td>
 	</tr>
 </table>
 
-When it comes to implementation, a queue is viewed as a circular array with two pointers <emp>front</emp> and <emp>rear</emp>. Both pointers advance clockwise and to enqueue: <code>rear = (rear + 1) % size</code> while to dequeue: <code>front = (front + 1) % size</code>. A queue can be implemented in two ways
+When it comes to implementation, a queue is viewed as a circular array with two pointers <emp>front</emp> and <emp>rear</emp>. Both pointers advance clockwise and to enqueue: <code>rear = (rear + 1) % size</code> while to dequeue: <code>front = (front + 1) % size</code>. A queue can be implemented in two ways...
 <ol>
 	<li>Using Dynamic Arrays</li>
 	<li>Using Linked Lists</li>
