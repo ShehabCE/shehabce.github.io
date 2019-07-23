@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stacks & Queues"
-date:   2019-01-20 08:40:00
+date:   2019-01-20 12:10:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
@@ -34,7 +34,7 @@ When it comes to time complexity...
 	</tr>
 </table>
 
-Implementing stacks is ridiciously easy, but still has to be implemented in order to understand it thoroughly. All insertions and deletions are done at one end called top. A stack can be implemented in two ways...
+Implementing stacks is easy, but still has to be implemented in order to understand it thoroughly. All insertions and deletions are done at one end called top. A stack can be implemented in two ways...
 <ol>
 	<li>Using Dynamic Arrays</li>
 	<li>Using Linked Lists</li>

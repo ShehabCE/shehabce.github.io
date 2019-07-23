@@ -7,7 +7,7 @@ categories: Computer-Science
 tags: Algorithms
 cover: "/assets/posts/BST.png"
 ---
-The beauty of a data structure is that you can have a structure or a container that can hold data and a set of methods (algorithms) that can operate on your data. Yeah, that's pretty much the equation of a data structure. <strong>Container of data + Operations on that container = Data-Structure</strong> 
+Best thing about data structures is that you can have a structure or a container that can hold data and a set of methods (algorithms) that can operate on your data. Yeah, that's pretty much the receipe of a data structure. <strong>Container of data + Operations on that container = Data structure</strong> 
 <br>
 So we can have an array of elements and do a lot of things with that array like; sorting the data, finding an element in the array, adding or removing elements in that array. But when it comes to real world applications, we care about speed and efficiency. We want to do whatever we want with the data as fast as possible! An array wouldn't provide the most efficient way in certain context. If we want to find an element in a huge array, we have to go through the entire array to look for it, so that's O(N) time complexity. But what if there's a faster way? A way to find an element without going through the entire array? A way to find the smallest element in the array for example? That's where Binary Search Trees (or BSTs) step in.
 <br>
@@ -18,7 +18,7 @@ Binary Search Tree is a dynamic data structure with a collection of nodes that f
 <ol>
 	<li>Each tree has a root node.</li>
 	<li>Each node has a reference of the left child and a reference of the right child.</li>
-	<li>Each node can have up to 2 children (that's why its called bianry).</li>
+	<li>Each node can have up to 2 children (that's why its called binary).</li>
 	<li>A node that doesn't have children is called a leaf node.</li>
 	<li>Nodes are ordered in a way where key(left child) < key(root) < key(right child).</li>
 </ol>
@@ -38,11 +38,12 @@ public:
 
 
 Since there is an ordering property in this tree, standard operations like Search/Insert/Delete are faster when used on a BST than on an array.
-BSTs are useful when it comes to queries such as searching for a key in a tree that provides lookup of(h) where h is the height of the tree, and it is proved that h = log(N), faster than going through the array of elements in O(N). Cutting the search cost from O(N) to O(lgN) is significant to applications that can only afford a logarithmic operation in that structure.
+BSTs are useful when it comes to frequent queries, searching for a key in a BST provides lookup of time complexity O(h) where h is the height of the tree, and it is proved that h = log(N), faster than going through the array of elements in O(N). Cutting the search cost from O(N) to O(logN) is significant to applications that can only afford a logarithmic operation in that structure.
 <br>
-
-<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
-<code>Height of the tree: h = log(n+1)</code><br>
+How can you know the number of nodes in a tree? Well, counting them is a strategy, but don't do that. Please. Instead, think of the levels of the tree. First level which is the root node has one node. Second level has two nodes. Third level has four nodes. You see the pattern? Each level you go down the tree, the number of nodes increases by a multiple of 2 since each node can have two children. So if you have a a tree of height 12, you can get the number of nodes through this equation.
+<br>
+<code>Number of nodes:- n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
+<code>Height of the tree:- h = log(n+1)</code><br>
 
 <strong>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</strong>
 <table cellpadding="0" cellspacing="0">
@@ -53,21 +54,26 @@ BSTs are useful when it comes to queries such as searching for a key in a tree t
 		<td>Unsorted Array</td><td>O(N)</td><td>O(N)</td><td>O(N)</td><td>O(N)</td>
 	</tr>
 	<tr>
-		<td>Sorted Array</td><td>O(lgN)</td><td>O(N)</td><td>O(N)</td><td>O(1)</td>
-	</tr>
-	<tr>
-		<td>Binary Search Tree (balanced)</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
+		<td>Binary Search Tree</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td><td>O(lgN)</td>
 	</tr>
 </table>
 
-Okay, since we already praised the fact that BST can search for an element in logarithmic time. How does it actually work? Remember that the nodes are distributed in the binary tree with the order key(left child) < key(root) < key(right child), so we know that if we want to find the smallest key we just have to go down to the leftmost node in the tree, same idea applies to finding the largest key in the tree.
+Okay, since we already praised the fact that BST can search for an element in logarithmic time. How does it actually work? Remember that the nodes are distributed in the binary tree with the order key(left child) < key(root) < key(right child), so we know that if we want to find the smallest key we just have to go down to the leftmost node in the tree, finding the largest key in the tree would be the other way around.
 
 <h2>BST Search</h2>
 
-Since BST is a non-linear data structure, there is no unique way for traversal. There are two ways to traverse in the tree, both of O(lgN):
+Since BST is a non-linear data structure, there is no unique way for traversal. There are two common ways to traverse in the tree, both of O(lgN):
 <ul>
 	<li><strong> Depth-First Search (DFS) </strong></li>
+	<ul>
+		<li>Pre-Order</li>
+		<li>In-Order</li>
+		<li>Post-Order</li>
+	</ul>
 	<li><strong> Breadth-First Search (BFS) </strong></li>
+	<ul>
+		<li>Level-Order</li>
+	</ul>
 </ul> 
 
 <h3> Depth-First Search (DFS) </h3>

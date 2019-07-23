@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Red Black Trees [Not Complete]"
-date:   2019-06-06 08:40:00
+title:  "Red Black Trees [Incomplete]"
+date:   2019-05-24 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
@@ -21,9 +21,9 @@ A Red Black Tree is not a totally new data structure, it is rather an augmented 
 	<li> Minimum(T)</li>
 </ul>
 
-<p align="center"><emp>For anyone who wants a crash course on Binary Search Trees, you can learn more about it <a href="https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html" target="_blank">here.</a></emp></p>
+<p align="center"><emp>You can go quickly through Binary Search Trees <a href="https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html" target="_blank">here.</a></emp></p>
 
-There are 4 properties that must hold in a Red-Black Tree:
+There are 4 properties that must hold in a Red-Black Tree:-
 <ol>
 	<li>Every node must be colored black or red.</li>
 	<li>Root node AND leaves are always colored black.</li>
