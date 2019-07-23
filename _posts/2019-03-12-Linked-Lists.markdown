@@ -5,7 +5,7 @@ date:   2019-03-12 16:00:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
-cover: "/assets/posts/linkedlist.png"
+cover: "/assets/posts/linkedlist2.png"
 ---
 
 Linked Lists, another primitive datastructure with significant importance. It is a linear collection of data elements, slightly similar to arrays, the difference is the operations done on it.
