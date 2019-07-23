@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Red Black Trees [Incomplete]"
-date:   2019-05-24 08:40:00
+date:   2019-01-24 08:40:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
