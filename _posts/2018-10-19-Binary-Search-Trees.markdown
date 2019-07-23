@@ -180,7 +180,7 @@ Binary Search Trees are amazing, right?
 Not quite...
 It is a pretty useful data structure, but what if the nodes weren't properly distributed in a BST? Imagine you have an array of N elements that is sorted and you build a BST with it. what would the tree look like?
 <div>
-The problem arises when the tree is not balanced, adding sorted elements in a tree will give a skewed shape of the tree where all the keys are on one branch and not distributed on two branches. This skewed shape can very much be a linked list where the operations cost have become O(N) which is no better than going through the entire array. BSTs can not <emp>guarantee</emp> logarithmic cost of operations in the worst case, because in the worst case, the tree can become imbalanced and impractical. However, there are self-balancing binary search trees that can solve this issue that a regular BST can't. 
+The problem arises when the tree is not balanced, adding sorted elements in a tree will give a skewed shape of the tree where all the keys are on one branch and not distributed on two branches. This skewed shape can very much be a linked list where the operations cost have become O(N) which is no better than going through the entire array. BSTs can not <emp>guarantee</emp> logarithmic cost of operations in the worst case, because in the worst case, the tree can become imbalanced and impractical. However, there are self-balancing binary search trees that can solve this issue that a regular BST can't. Red-Black Trees is one of them.<a href="https://shehabmmohamed.github.io/computer-science/2019/01/24/Red-Black-Trees.html" target="_blank">Link to RBT</a>
 </div>
 
 <table cellpadding="0" cellspacing="0">
