@@ -200,6 +200,6 @@ The problem arises when the tree is not balanced, adding sorted elements in a tr
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 </table>
-<p>Binary Search Trees can vary much in implementation. Below is my own version of Binary Search Tree.</p>
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/" target="_blank"> Source</a></p>
+
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/" target="_blank"> Binary Search Tree Source Code</a></p>
 
