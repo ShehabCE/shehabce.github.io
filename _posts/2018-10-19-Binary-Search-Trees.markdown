@@ -7,6 +7,8 @@ categories: Computer-Science
 tags: Algorithms
 cover: "/assets/posts/BST.png"
 ---
+
+
 Best thing about data structures is that you can have a structure or a container that can hold data and a set of methods (algorithms) that can operate on your data. Yeah, that's pretty much the receipe of a data structure. <strong>Container of data + Operations on that container = Data structure</strong> 
 <br>
 So we can have an array of elements and do a lot of things with that array like; sorting the data, finding an element in the array, adding or removing elements in that array. But when it comes to real world applications, we care about speed and efficiency. We want to do whatever we want with the data as fast as possible! An array wouldn't provide the most efficient way in certain context. If we want to find an element in a huge array, we have to go through the entire array to look for it, so that's O(N) time complexity. But what if there's a faster way? A way to find an element without going through the entire array? A way to find the smallest element in the array for example? That's where Binary Search Trees (or BSTs) step in.
@@ -42,8 +44,9 @@ BSTs are useful when it comes to frequent queries, searching for a key in a BST 
 <br>
 How can you know the number of nodes in a tree? Well, counting them is a strategy, but don't do that. Please. Instead, think of the levels of the tree. First level which is the root node has one node. Second level has two nodes. Third level has four nodes. You see the pattern? Each level you go down the tree, the number of nodes increases by a multiple of 2 since each node can have two children. So if you have a a tree of height 12, you can get the number of nodes through this equation.
 <br>
-<code>Number of nodes:- n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
-<code>Height of the tree:- h = log(n+1)</code><br>
+<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1)(2^h) - 1</code><br>
+<code>Number of nodes at height h: (2^h) - 1</code><br>
+<code>Height of the tree: h = log(n+1)</code><br>
 
 <strong>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</strong>
 <table cellpadding="0" cellspacing="0">
@@ -197,5 +200,6 @@ The problem arises when the tree is not balanced, adding sorted elements in a tr
 		<td>Delete</td><td>O(lgN)</td><td>O(lgN)</td><td>O(N)</td>
 	</tr>
 </table>
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/BinarySearchTrees.h" target="_blank"> Binary Search Trees Implementation </a></p>
+<p>Binary Search Trees can vary much in implementation. Below is my own version of Binary Search Tree.</p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/" target="_blank"> Source</a></p>
 

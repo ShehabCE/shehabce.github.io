@@ -3,7 +3,7 @@ layout: post
 title:  "IDEs do hurt, unless..."
 date:   2018-03-18 08:40:00
 author: Shehab
-categories: Computer-Science
+categories: Food-for-thought
 cover:  "/assets/posts/ides-do-hurt.png"
 ---
 
