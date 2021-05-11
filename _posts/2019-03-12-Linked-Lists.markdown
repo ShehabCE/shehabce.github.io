@@ -54,6 +54,6 @@ public:
 <p align="center"><img src="/assets/posts/circularlylist.png"></p>
 </ol>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h" target="_blank"> Linked List Implementation in C++ </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h" target="_blank"> Singly Linked List in C++ </a></p>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/SinglyLinkedList/SinglyLinkedList.go" target="_blank"> Linked List Implementation in Go </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/SinglyLinkedList/SinglyLinkedList.go" target="_blank"> Singly Linked List in Go </a></p>
