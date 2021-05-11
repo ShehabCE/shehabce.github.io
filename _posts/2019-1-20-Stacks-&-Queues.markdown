@@ -58,9 +58,9 @@ bool IsFull(); // checks if stack is full.
 };
 {% endhighlight %}
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Stacks.h" target="_blank"> Stack Implementation in C++ </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Stacks.h" target="_blank"> Stacks in C++ </a></p>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Stacks/Stack.go" target="_blank"> Stack Implementation in Go </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Stacks/Stack.go" target="_blank"> Stacks in Go </a></p>
 
 <h4>Stack-based Applications</h4>
 <ul>
@@ -122,9 +122,9 @@ bool IsFull(); // checks if queue is full.
 };
 {% endhighlight %}
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h" target="_blank"> Queue Implementation in C++ </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h" target="_blank"> Queues in C++ </a></p>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Queues/Queue.go" target="_blank"> Stack Implementation in Go </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Queues/Queue.go" target="_blank"> Queues in Go </a></p>
 
 <h4>Queue-based Applications</h4>
 <ul>

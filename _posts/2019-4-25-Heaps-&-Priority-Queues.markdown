@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stacks & Queues"
+title: "Heaps & Priority Queues [Draft In Progress]"
 date: 2019-04-25 12:10:00
 author: Shehab
 categories: Computer-Science
@@ -83,6 +83,6 @@ When it comes to time complexity...
 	</tr>
 </table>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Priority%20Queues/PriorityQueue.h" target="_blank"> Heap Implementation in C++ </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Priority%20Queues/PriorityQueue.h" target="_blank"> Heaps in C++ </a></p>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Heaps/Heap.go" target="_blank"> Heap Implementation in Go </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Heaps/Heap.go" target="_blank"> Heaps in Go </a></p>

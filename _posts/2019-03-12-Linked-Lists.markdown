@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Linked Lists (Singly, Doubly, and Circularly)"
-date:   2019-03-12 16:00:00
+title: "Linked Lists (Singly, Doubly, and Circularly)"
+date: 2019-03-12 16:00:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
@@ -13,6 +13,7 @@ Linked Lists, another primitive datastructure with significant importance. It is
 A linked list is like a train when you think about it, such that each element is a block that is chained to the block next to it and so on. A linked list is a collection of blocks or nodes in this case such that each node carries some data and a pointer that points to the next node, and so on.
 
 Although both linked lists and arrays are linear collections of data, they differ in the following
+
 <ol>
 	<li>Arrays have random access element such that an element can be accessed by its position (index), while a linked list has to go from the first node all the way to the nth node to access that nth element.
 	</li>
@@ -21,7 +22,6 @@ Although both linked lists and arrays are linear collections of data, they diffe
 </ol>
 
 Usually when working with linked lists, when we point at the first node we often refer to it as the head, while pointing at the last node is often called the tail. It is a common practice so that we know if we want to traverse the list, we start from the <strong>head</strong> all the way to the <strong>tail</strong>.
-
 
 <h3>There are 3 variations of a Linked List:-</h3>
 <ol>
@@ -54,5 +54,6 @@ public:
 <p align="center"><img src="/assets/posts/circularlylist.png"></p>
 </ol>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h" target="_blank"> Linked List Implementation </a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h" target="_blank"> Linked List Implementation in C++ </a></p>
 
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/SinglyLinkedList/SinglyLinkedList.go" target="_blank"> Linked List Implementation in Go </a></p>

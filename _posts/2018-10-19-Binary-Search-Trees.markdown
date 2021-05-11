@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Binary Search Trees"
-date:   2018-10-19 08:15:00
+title: "Binary Search Trees"
+date: 2018-10-19 08:15:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
 cover: "/assets/posts/BST.png"
 ---
 
-
-Best thing about data structures is that you can have a structure or a container that can hold data and a set of methods (algorithms) that can operate on your data. Yeah, that's pretty much the receipe of a data structure. <strong>Container of data + Operations on that container = Data structure</strong> 
+Best thing about data structures is that you can have a structure or a container that can hold data and a set of methods (algorithms) that can operate on your data. Yeah, that's pretty much the receipe of a data structure. <strong>Container of data + Operations on that container = Data structure</strong>
 <br>
 So we can have an array of elements and do a lot of things with that array like; sorting the data, finding an element in the array, adding or removing elements in that array. But when it comes to real world applications, we care about speed and efficiency. We want to do whatever we want with the data as fast as possible! An array wouldn't provide the most efficient way in certain context. If we want to find an element in a huge array, we have to go through the entire array to look for it, so that's O(N) time complexity. But what if there's a faster way? A way to find an element without going through the entire array? A way to find the smallest element in the array for example? That's where Binary Search Trees (or BSTs) step in.
 <br>
 Binary Search Tree is a dynamic data structure with a collection of nodes that follow a certain ordering property.  
 <img src="/assets/posts/BST.png">
+
 <p align="center">An example of a Binary Search Tree.</p>
 <h4>Properties of a BST</h4>
 <ol>
@@ -28,16 +28,15 @@ Binary Search Tree is a dynamic data structure with a collection of nodes that f
 {% highlight c++ %}
 class TreeNode {
 public:
-	TreeNode *left;
-	TreeNode *right;
-	int val;
-	TreeNode(int k) : val(k) {
-		left = NULL;
-		right = NULL;
-	}; 
+TreeNode *left;
+TreeNode *right;
+int val;
+TreeNode(int k) : val(k) {
+left = NULL;
+right = NULL;
+};
 };
 {% endhighlight %}
-
 
 Since there is an ordering property in this tree, standard operations like Search/Insert/Delete are faster when used on a BST than on an array.
 BSTs are useful when it comes to frequent queries, searching for a key in a BST provides lookup of time complexity O(h) where h is the height of the tree, and it is proved that h = log(N), faster than going through the array of elements in O(N). Cutting the search cost from O(N) to O(logN) is significant to applications that can only afford a logarithmic operation in that structure.
@@ -49,6 +48,7 @@ How can you know the number of nodes in a tree? Well, counting them is a strateg
 <code>Height of the tree: h = log(n+1)</code><br>
 
 <strong>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</strong>
+
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<th>Operation</th><th>Search()</th><th>Delete()</th><th>Insert()</th><th>Max()/Min()</th>
@@ -66,6 +66,7 @@ Okay, since we already praised the fact that BST can search for an element in lo
 <h2>BST Search</h2>
 
 Since BST is a non-linear data structure, there is no unique way for traversal. There are two common ways to traverse in the tree, both of O(lgN):
+
 <ul>
 	<li><strong> Depth-First Search (DFS) </strong></li>
 	<ul>
@@ -77,11 +78,12 @@ Since BST is a non-linear data structure, there is no unique way for traversal. 
 	<ul>
 		<li>Level-Order</li>
 	</ul>
-</ul> 
+</ul>
 
 <h3> Depth-First Search (DFS) </h3>
 
 There are three types of depth-first search. They don't differ in speed or efficiency. They just differ in the order where they visit the nodes.
+
 <ol>
 	<li>Pre-Order Traversal</li>
 	<li>In-Order Traversal</li>
@@ -121,7 +123,6 @@ void PostOrder(TreeNode *t) {
 }
 {% endhighlight %}
 
-
 <h3> Breadth-First Search (BFS) </h3>
 There is only one type of breadth-first search, the level order traversal.
 <ol>
@@ -131,22 +132,21 @@ There is only one type of breadth-first search, the level order traversal.
 Traversing the BST level by level from leftmost to rightmost. Start from the root node at level 0, go to level 1, go through all nodes in level 1 from left to right, go to level 2 and so on.
 
 {% highlight c++ %}
-void LevelOrder(TreeNode *t) {
-	if(!t)	return NULL;
-	queue<TreeNode*> q;
-	q.push(t);
-	while(!q.empty()) {
-		TreeNode* temp = q.front();
-		q.pop();
-		Visit(temp);
-		if(temp->left)
-			q.push(temp->left);
-		if(temp->right)
-			q.push(temp->right);
-	}
+void LevelOrder(TreeNode _t) {
+if(!t) return NULL;
+queue<TreeNode_> q;
+q.push(t);
+while(!q.empty()) {
+TreeNode\* temp = q.front();
+q.pop();
+Visit(temp);
+if(temp->left)
+q.push(temp->left);
+if(temp->right)
+q.push(temp->right);
+}
 }
 {% endhighlight %}
-
 
 <hr>
 
@@ -163,7 +163,7 @@ Unlike Insertion, deleting a node might be tricky and less obvious. There are th
 	<li><strong>Node to delete has two children</strong></li>
 </ol>
 <h4> 1. Node (N) to delete has no children (A leaf node) </h4>
-Deleting a leaf node is the simplest case. It doesn't have children so there won't be any tree split. Simply delete it. 
+Deleting a leaf node is the simplest case. It doesn't have children so there won't be any tree split. Simply delete it.
 
 <h4> 2. Node (N) to delete has one child </h4>
 Say we want to delete (N) where its child is (C) and its parent is (P). Deleting (N) will cause a tree split between (P) and (C). So you just need to bypass (N) where you link (C) to (P) as (P)'s new child instead of (N), and then safely delete old (N).
@@ -201,5 +201,6 @@ The problem arises when the tree is not balanced, adding sorted elements in a tr
 	</tr>
 </table>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/" target="_blank"> Binary Search Tree Source Code</a></p>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Data%20Structures/Binary%20Search%20Trees" target="_blank"> Binary Search Trees in C++ </a></p>
 
+<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/BinarySearchTrees/BinarySearchTree.go" target="_blank"> Binary Search Trees in Go </a></p>
