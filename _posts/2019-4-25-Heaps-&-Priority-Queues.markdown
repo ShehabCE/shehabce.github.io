@@ -41,6 +41,7 @@ public:
 	PriorityQueue();
 	void Push(const int& e);
 	void Pop();
+	int Top();
 	bool IsFull();
 	bool IsEmpty();
 	~PriorityQueue();
