@@ -19,12 +19,12 @@ So what is the structure of a TrieNode? Well, looking at the cross-section of on
 {% highlight c++ %}
 class TrieNode {
 public:
-TrieNode \*children[ALPHA_SIZE]; // size of the alphabet is 256.
+TrieNode *children[ALPHA_SIZE]; // size of the alphabet is 256.
 bool isEndOfWord; // true if the node represents end of a word.
 TrieNode() : isEndOfWord(false) {
-for(int i = 0; i < ALPHA_SIZE; i++)
-children[i] = NULL;
-};
+	for(int i = 0; i < ALPHA_SIZE; i++)
+	children[i] = NULL;
+	};
 };
 {% endhighlight %}
 
@@ -33,5 +33,4 @@ The figure below is an example of a trie filled with several english words, you 
 <p align="center"><img src="/assets/posts/tries2.png"></p>
 
 <p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/Tries" target="_blank"> Tries in C++ </a></p>
-
 <p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Tries/Trie.go" target="_blank"> Tries in Go </a></p>

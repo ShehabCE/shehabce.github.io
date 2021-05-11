@@ -48,13 +48,13 @@ How you implement it is your choice, but those are the common methods needed to 
 template<typename T>
 class SimpleStack {
 public:
-SimpleStack(int size); // Class Constructor.
-void push(const T& e); // adds element to top of the stack.
-void pop(); // removes top element of the stack.
-T top(); // returns top element of the stack.
-bool IsEmpty(); // checks if stack is empty.
-bool IsFull(); // checks if stack is full.
-~SimpleStack(); // Class Destructor.
+	SimpleStack(int size); // Class Constructor.
+	void push(const T& e); // adds element to top of the stack.
+	void pop(); // removes top element of the stack.
+	T top(); // returns top element of the stack.
+	bool IsEmpty(); // checks if stack is empty.
+	bool IsFull(); // checks if stack is full.
+	~SimpleStack(); // Class Destructor.
 };
 {% endhighlight %}
 
@@ -112,14 +112,14 @@ When it comes to implementation, a queue is viewed as a circular array with two 
 template<typename T>
 class SimpleQueue {
 public:
-SimpleQueue(int size); // Class Constructor.
-void enqueue(const T& e); // adds element to end of the queue.
-T dequeue(); // removes the element from front of the queue.
-T queueFront(); // retrieves front element without removing it.
-bool IsEmpty(); // checks if queue is empty.
-bool IsFull(); // checks if queue is full.
-~SimpleQueue(); // Class Destructor.
-};
+	SimpleQueue(int size); // Class Constructor.
+	void enqueue(const T& e); // adds element to end of the queue.
+	T dequeue(); // removes the element from front of the queue.
+	T queueFront(); // retrieves front element without removing it.
+	bool IsEmpty(); // checks if queue is empty.
+	bool IsFull(); // checks if queue is full.
+	~SimpleQueue(); // Class Destructor.
+	};
 {% endhighlight %}
 
 <p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h" target="_blank"> Queues in C++ </a></p>

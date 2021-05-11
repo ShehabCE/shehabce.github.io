@@ -29,29 +29,29 @@ First let's define a Priority Queue class.
 {% highlight c++ %}
 class PriorityQueue {
 private:
-int \*A;
-int capacity;
-int size;
-int Parent(i);
-int Left(i);
-int Right(i);
-void HeapifyUp(int i);
-void HeapifyDown(in i);
+	int *A;
+	int capacity;
+	int size;
+	int Parent(i);
+	int Left(i);
+	int Right(i);
+	void HeapifyUp(int i);
+	void HeapifyDown(in i);
 public:
-PriorityQueue();
-void Push(const int& e);
-void Pop();
-bool IsFull();
-bool IsEmpty();
-~PriorityQueue();
+	PriorityQueue();
+	void Push(const int& e);
+	void Pop();
+	bool IsFull();
+	bool IsEmpty();
+	~PriorityQueue();
 };
 {% endhighlight %}
 
 As mentioned earlier, a heap is just an array visualized as a tree, so whenever we want fo find parent or child of a specific index, we calculate a certain formula to get that index.
 
 <code>Parent(index) = (index - 1) / 2</code><br>
-<code>LeftChild(index) = (index \* 2) + 1</code><br>
-<code>Parent(index) = (index \* 2) + 2</code><br>
+<code>LeftChild(index) = (index * 2) + 1</code><br>
+<code>Parent(index) = (index * 2) + 2</code><br>
 
 Based on that, let's cover the following methods that need to be implemented to preserve the order and the structure of the Heap.
 

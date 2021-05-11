@@ -42,17 +42,17 @@ As you can see, the node structure of a RB tree is the same as BST node structur
 // an (RBT) Node structure.
 class RedBlackNode {
 public:
-RedBlackNode *parent;
-RedBlackNode *left;
-RedBlackNode \*right;
-int val;
-int color; // Red -> 1 | Black -> 0
-RedBlackNode(int k) : val(k) {
-parent = NULL;
-left = NULL;
-right = NULL;
-color = 1;
-};
+	RedBlackNode *parent;
+	RedBlackNode *left;
+	RedBlackNode *right;
+	int val;
+	int color; // Red -> 1 | Black -> 0
+	RedBlackNode(int k) : val(k) {
+		parent = NULL;
+		left = NULL;
+		right = NULL;
+		color = 1;
+	};
 };
 {% endhighlight %}
 However, to ensure a logarithmic time complexity of the Red-Black Tree, each update query (Insert/Delete) is followed by another method called RB-INSERT-FIXUP and RB-DELETE-FIXUP that provides some maintenance to the tree structure to make sure the four enlisted properties are well preserved, and if there is a violation, it gets fixed.
