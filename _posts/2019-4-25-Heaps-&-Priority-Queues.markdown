@@ -55,12 +55,12 @@ As mentioned earlier, a heap is just an array visualized as a complete binary tr
 Based on that, let's cover the following methods that need to be implemented to preserve the order and the structure of the Heap.
 
 <style>
-img { 
+img .heap { 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 250px;
-	width: 250px;
+	width: 200px;
 }
 </style>
 
@@ -71,9 +71,9 @@ img {
 	<li>Recursively Bubble Up the element to its correct place whether it is higher/lower than its parent.</li>
 </ol>
 
-<img src="/assets/posts/Heap-Push-1.png">
-<img src="/assets/posts/Heap-Push-2.png">
-<img src="/assets/posts/Heap-Push-3.png">
+<img class="heap" src="/assets/posts/Heap-Push-1.png">
+<img class="heap" src="/assets/posts/Heap-Push-2.png">
+<img class="heap" src="/assets/posts/Heap-Push-3.png">
 
 2. Popping an element from a Heap relies on three things:
 
@@ -83,9 +83,9 @@ img {
 	<li>Recursively Bubble Down the newly swapped top element to its correct place whether it is higher/lower than its children.</li>
 </ol>
 
-<img src="/assets/posts/Heap-Pop-1.png">
-<img src="/assets/posts/Heap-Pop-2.png">
-<img src="/assets/posts/Heap-Pop-3.png">
+<img class="heap" src="/assets/posts/Heap-Pop-1.png">
+<img class="heap" src="/assets/posts/Heap-Pop-2.png">
+<img class="heap" src="/assets/posts/Heap-Pop-3.png">
 <img src="/assets/posts/Heap-Pop-4.png">
 <img src="/assets/posts/Heap-Pop-5.png">
 
