@@ -55,7 +55,7 @@ As mentioned earlier, a heap is just an array visualized as a complete binary tr
 Based on that, let's cover the following methods that need to be implemented to preserve the order and the structure of the Heap.
 
 <style>
-img .heap { 
+.heap { 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
