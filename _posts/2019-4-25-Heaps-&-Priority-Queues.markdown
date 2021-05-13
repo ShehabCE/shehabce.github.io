@@ -58,29 +58,34 @@ Based on that, let's cover the following methods that need to be implemented to 
 
 1. Pushing an element to a Heap.
 
-<img src="/assets/posts/Heap-Push-1.png">
-<img src="/assets/posts/Heap-Push-2.png">
-<img src="/assets/posts/Heap-Push-3.png">
+<div id="Heap-push-imgs" style="display:block;margin-left:auto;margin-right:auto;height:250px;width:250px;">
+	<img src="/assets/posts/Heap-Push-1.png">
+	<img src="/assets/posts/Heap-Push-2.png">
+	<img src="/assets/posts/Heap-Push-3.png">
+</div>
 
 2. Popping an element from a Heap.
 
-<img src="/assets/posts/Heap-Pop-1.png">
-<img src="/assets/posts/Heap-Pop-2.png">
-<img src="/assets/posts/Heap-Pop-3.png">
-<img src="/assets/posts/Heap-Pop-4.png">
-<img src="/assets/posts/Heap-Pop-5.png">
+<div id="Heap-pop-imgs" style="display:block;margin-left:auto;margin-right:auto;height:250px;width:250px;">
+	<img src="/assets/posts/Heap-Pop-1.png">
+	<img src="/assets/posts/Heap-Pop-2.png">
+	<img src="/assets/posts/Heap-Pop-3.png">
+	<img src="/assets/posts/Heap-Pop-4.png">
+	<img src="/assets/posts/Heap-Pop-5.png">
+</div>
+
 
 When it comes to time complexity...
 
 <table cellpadding="0" cellspacing="0">
 	<tr>
-		<td>Push</td><td>Add At End</td><td>O(LogN)</td>
+		<td>Push</td><td>O(LogN)</td>
 	</tr>
 	<tr>
-		<td>Pop</td><td>Remove at Top</td><td>O(LogN)</td>
+		<td>Pop</td><td>O(LogN)</td>
 	</tr>
 	<tr>
-		<td>Top</td><td>Access Top</td><td>O(1)</td>
+		<td>Top</td><td>O(1)</td>
 	</tr>
 </table>
 
