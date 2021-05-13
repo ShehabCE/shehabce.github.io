@@ -64,7 +64,7 @@ Based on that, let's cover the following methods that need to be implemented to 
 }
 </style>
 
-1. Pushing an element to a Heap relies on two things:
+<h3> Pushing an element to a Heap relies on two things:</h3>
 
 <ol>
 	<li>Insert an element at the end of the heap.</li>
@@ -75,7 +75,7 @@ Based on that, let's cover the following methods that need to be implemented to 
 <img class="heap" src="/assets/posts/Heap-Push-2.png">
 <img class="heap" src="/assets/posts/Heap-Push-3.png">
 
-2. Popping an element from a Heap relies on three things:
+<h3> Popping an element from a Heap relies on three things:</h3>
 
 <ol>
 	<li>Swap the top element with the last element in the heap.</li>
