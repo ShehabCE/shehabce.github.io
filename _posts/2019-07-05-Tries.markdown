@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tries [Draft in Progress]"
+title: "Tries"
 date: 2019-07-05 19:33:00
 author: Shehab
 categories: Computer-Science
