@@ -36,7 +36,7 @@ The figure below is an example of a trie filled with several english words, you 
 <p align="center"><img src="/assets/posts/tries2.png"></p>
 
 
-Regarding Time Complexity,
+Regarding Complexities,
 
 let W be the number of strings and L be the length of the longest string.
 
