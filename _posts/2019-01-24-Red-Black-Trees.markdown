@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Red Black Trees [Draft In Progress]"
+title: "Red Black Trees"
 date: 2019-01-24 08:40:00
 author: Shehab
 categories: Computer-Science
@@ -89,7 +89,10 @@ There are 6 cases to handle when we insert a new node in a balanced tree, three 
 <hr>
 
 <h2>RBT Delete </h2>
-Deleting a node in a RBT is slightly more complicated than inserting a node in a RBT.
+Deleting a node in a RBT is slightly more complicated than inserting a node in a RBT. 
+I will not cover it in detail here, but the idea is similar to how we perform RBT Insert. 
+
+We perform a traditional BST delete + RBT FixUp, and FixUp refers to either rotation or recoloring of the nodes to preserve the properties of a RBT.
 
 <hr>
 
