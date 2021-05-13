@@ -61,9 +61,9 @@ Based on that, let's cover the following methods that need to be implemented to 
 	<li>Recursively Bubble Up the element to its correct place whether it is higher/lower than its parent.</li>
 </ol>
 
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Push-1.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Push-2.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Push-3.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Push-1.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Push-2.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Push-3.png">
 
 <h3> Popping an element from a Heap relies on three things:</h3>
 
@@ -73,11 +73,11 @@ Based on that, let's cover the following methods that need to be implemented to 
 	<li>Recursively Bubble Down the newly swapped top element to its correct place whether it is higher/lower than its children.</li>
 </ol>
 
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Pop-1.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Pop-2.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Pop-3.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Pop-4.png">
-<img style="display:block;width:200px;height:250px;" src="/assets/posts/Heap-Pop-5.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Pop-1.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Pop-2.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Pop-3.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Pop-4.png">
+<img style="display:block;width:250px;height:250px;" src="/assets/posts/Heap-Pop-5.png">
 
 
 Once you implement BubbleUp() and BubbleDown() methods which are also known as HeapifyUp() and HeapifyDown(), you will use them in Push() and Pop() methods and the rest of the implementation is straight forward. 
