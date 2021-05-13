@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heaps & Priority Queues [Draft In Progress]"
+title: "Heaps & Priority Queues"
 date: 2019-04-25 12:10:00
 author: Shehab
 categories: Computer-Science
@@ -15,15 +15,13 @@ Binary Heaps are in general implemented using an array, however, we visualize it
 There are two variants of Heaps:
 
 <ol>
-<li>Max Heap - Largest value is at the root of the tree</li>
-<li>Min Heap - Smallest value is at the root of the tree</li>
+	<li>Max Heap - Largest value is at the root of the tree</li>
+	<li>Min Heap - Smallest value is at the root of the tree</li>
 </ol>
 
 Well in that case, what is the Priority Queue?
 
 Priority Queue as a definition, it is an abstract data type (ADT) based on Heaps. You can consider that Heaps and Priority Queues are both the same thing. We define a priority queue based on whether it is a Min or a Max heap, and we use it to solve our problem.
-
-In this article, I'll cover how does heaps work and what are the possible applications for it.
 
 First let's define a Priority Queue class.
 {% highlight c++ %}
@@ -48,7 +46,7 @@ public:
 };
 {% endhighlight %}
 
-As mentioned earlier, a heap is just an array visualized as a tree, so whenever we want fo find parent or child of a specific index, we calculate a certain formula to get that index.
+As mentioned earlier, a heap is just an array visualized as a complete binary tree, so whenever we want fo find parent or child of a specific index, we calculate a certain formula to get that index.
 
 <code>Parent(index) = (index - 1) / 2</code><br>
 <code>LeftChild(index) = (index * 2) + 1</code><br>
@@ -56,7 +54,12 @@ As mentioned earlier, a heap is just an array visualized as a tree, so whenever 
 
 Based on that, let's cover the following methods that need to be implemented to preserve the order and the structure of the Heap.
 
-1. Pushing an element to a Heap.
+1. Pushing an element to a Heap relies on two things:
+
+<ol>
+	<li>Insert an element at the end of the heap.</li>
+	<li>Recursively Bubble Up the element to its correct place whether it is higher/lower than its parent.</li>
+</ol>
 
 <div id="Heap-push-imgs" style="display:block;margin-left:auto;margin-right:auto;height:250px;width:250px;">
 	<img src="/assets/posts/Heap-Push-1.png">
@@ -64,7 +67,13 @@ Based on that, let's cover the following methods that need to be implemented to 
 	<img src="/assets/posts/Heap-Push-3.png">
 </div>
 
-2. Popping an element from a Heap.
+2. Popping an element from a Heap relies on three things:
+
+<ol>
+	<li>Swap the top element with the last element in the heap.</li>
+	<li>remove the last element from the heap (could be as simple as decrementing the array size).</li>
+	<li>Recursively Bubble Down the newly swapped top element to its correct place whether it is higher/lower than its children.</li>
+</ol>
 
 <div id="Heap-pop-imgs" style="display:block;margin-left:auto;margin-right:auto;height:250px;width:250px;">
 	<img src="/assets/posts/Heap-Pop-1.png">
@@ -74,6 +83,8 @@ Based on that, let's cover the following methods that need to be implemented to 
 	<img src="/assets/posts/Heap-Pop-5.png">
 </div>
 
+
+Once you implement BubbleUp() and BubbleDown() methods which are also known as HeapifyUp() and HeapifyDown(), you will use them in Push() and Pop() methods and the rest of the implementation is straight forward. 
 
 When it comes to time complexity...
 
