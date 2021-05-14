@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binary Search Trees"
-date: 2018-10-19 08:15:00
+date: 2019-05-19 08:30:00
 author: Shehab
 categories: Computer-Science
 tags: Algorithms
