@@ -10,7 +10,7 @@ My name is Shehab Abdel-Salam and I'm a software engineer with a passion of buil
 
 I graduated with a B.Sc. in Computer Engineering from the American University in Cairo in Jan 2018 and I am currently studying a master's degree in Computer Science with specialization in Deep Learning in NLP.
 
-I currently work in the Data Office Team at Dell Technologies as a software engineer and I am a part-time graduate teaching assistant at The American University in Cairo. I've previously worked as a researcher intern at Valeo, and worked at Levelset as a web development intern, and lastly I worked in Live Optics Team at Dell Technologies as a Graduate Intern.
+I currently work in the Data Office Team at Dell Technologies as an R&D Software Engineer and I am a part-time graduate teaching assistant at The American University in Cairo. During my time at Dell before joining Data Office team, I have also worked as a Software Engineer Graduate Intern in Live Optics Product Development Team. I've previously worked as a researcher intern at Valeo, and I also worked at Levelset as a web development intern.
 
 I am also an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
