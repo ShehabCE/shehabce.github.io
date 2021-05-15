@@ -28,6 +28,7 @@ Collision happens when two keys hash to the same position, say for example we ha
 You will find that
 
 <code> Hash(key=55) = 55 % 11 = 0</code>
+
 <code> Hash(key=66) = 66 % 11 = 0</code>
 
 As you can see, two distinct keys map to the same location which are called "synonyms" and the situation is called "collision"
