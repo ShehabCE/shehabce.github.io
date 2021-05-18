@@ -43,8 +43,8 @@ BSTs are useful when it comes to frequent queries, searching for a key in a BST 
 <br>
 How can you know the number of nodes in a tree? Well, counting them is a strategy, but don't do that. Please. Instead, think of the levels of the tree. First level which is the root node has one node. Second level has two nodes. Third level has four nodes. You see the pattern? Each level you go down the tree, the number of nodes increases by a multiple of 2 since each node can have two children. So if you have a a tree of height 12, you can get the number of nodes through this equation.
 <br>
-<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1)(2^h) - 1</code><br>
-<code>Number of nodes at height h: (2^h) - 1</code><br>
+<code>Number of nodes: n = 1 + 2 + 4 + 8 + ... + (2^h-1) = (2^h) - 1</code><br>
+<code>Max # of nodes at height h: (2^h) - 1</code><br>
 <code>Height of the tree: h = log(n+1)</code><br>
 
 <strong>This table is a small comparison of basic operations in <emp>average case</emp> using Big O notation.</strong>
