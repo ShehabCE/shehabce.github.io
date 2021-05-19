@@ -28,13 +28,13 @@ Binary Search Tree is a dynamic data structure with a collection of nodes that f
 {% highlight c++ %}
 class TreeNode {
 public:
-TreeNode *left;
-TreeNode *right;
-int val;
-TreeNode(int k) : val(k) {
-left = NULL;
-right = NULL;
-};
+	TreeNode *left;
+	TreeNode *right;
+	int val;
+	TreeNode(int k) : val(k) {
+		left = NULL;
+		right = NULL;
+	};
 };
 {% endhighlight %}
 

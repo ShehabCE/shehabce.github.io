@@ -22,11 +22,11 @@ So what is the structure of a TrieNode? Well, looking at the cross-section of on
 {% highlight c++ %}
 class TrieNode {
 public:
-TrieNode *children[ALPHA_SIZE]; // size of the alphabet is 256.
-bool isEndOfWord; // true if the node represents end of a word.
-TrieNode() : isEndOfWord(false) {
-	for(int i = 0; i < ALPHA_SIZE; i++)
-	children[i] = NULL; 
+	TrieNode *children[ALPHA_SIZE]; // size of the alphabet is 256.
+	bool isEndOfWord; // true if the node represents end of a word.
+	TrieNode() : isEndOfWord(false) {
+		for(int i = 0; i < ALPHA_SIZE; i++)
+		children[i] = NULL; 
 	}
 };
 {% endhighlight %}

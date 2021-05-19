@@ -119,7 +119,7 @@ public:
 	bool IsEmpty(); // checks if queue is empty.
 	bool IsFull(); // checks if queue is full.
 	~SimpleQueue(); // Class Destructor.
-	};
+};
 {% endhighlight %}
 
 <p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h" target="_blank"> Queues in C++ </a></p>
