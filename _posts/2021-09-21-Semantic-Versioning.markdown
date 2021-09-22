@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Semantic Versioning in GitLab CI"
-date: 2019-07-05 19:33:00
+date: 2021-09-22 23:33:15
 author: Shehab
 categories: Computer-Science
-tags: Algorithms
-cover: "/assets/posts/tries.png"
+tags: DevOps
+cover: "/assets/posts/semver.png"
 ---
 
 You and your team are maintaing a set of backend services for an online shopping application. Scenario A, your colleague is pushing a bug fix to <strong>Order Service</strong> that caused some problems in the <strong>Cart Service</strong>. This new push has changed the state of the service from the old buggy state to the new fixed state. But say there is another team who want to quickly identify the magnitude of your change, i.e. did you break any logic? did you remove a class, or did you change a function signature that was used in other services?, or did you just update a README file?
@@ -44,53 +44,49 @@ Here is a sample .releaserc.json file you can start with:
 
 {% highlight c++ %}
 {
-"branches": ["main"],
-"prepare": false,
-"plugins": [
-["@semantic-release/commit-analyzer",
-{ "releaseRules": [
-{"type": "style", "release": "patch"},
-{"type": "breaking", "release": "major"} ],
-}],
-"@semantic-release/release-notes-generator",
-"@semantic-release/gitlab"
-]
+  "branches": ["main"],
+  "prepare": false,
+  "plugins": [
+    ["@semantic-release/commit-analyzer",
+      { 
+        "releaseRules": [
+          {"type": "style", "release": "patch"},
+          {"type": "breaking", "release": "major"} 
+        ],
+      }
+    ],
+  "@semantic-release/release-notes-generator",
+  "@semantic-release/gitlab"
+  ]
 }
 {% endhighlight %}
 
 Notice in the sample file above, the commit-analyzer plugin has two custom releaseRules which checks for a new rlease on the main branch based on a message convention: <strong>type(scope): message</strong>
 
-For example, the following commit message "style: repositioned the navbar" will trigger a <strong>PATCH<strong> release while the following commit message "breaking: deprecated the promocode API" will trigger a <strong>MAJOR</strong> release. If no rules match, it will search for the default releaseRules which you can find in semantic-release GitHub repo.
+For example, the following commit message "style: repositioned the navbar" will trigger a <strong>PATCH</strong> release while the following commit message "breaking: deprecated the promocode API" will trigger a <strong>MAJOR</strong> release. If no rules match, it will search for the default releaseRules which you can find in semantic-release GitHub repo.
 
 Create a .gitlab-ci.yml file and add the following stage:
 
 {% highlight c++ %}
 stages:
-
 - Release
 
 semantic-release:
-
 stage: Release
-
 variables:
-GITLAB_TOKEN: ${GITLAB_TOKEN}
-GIT_AUTHOR_NAME: ${GITLAB_USER_NAME}
-GIT_AUTHOR_EMAIL: ${GITLAB_USER_EMAIL}
-GIT_COMMITTER_NAME: ${GITLAB_USER_NAME}
-GIT_COMMITTER_EMAIL: ${GITLAB_USER_EMAIL}
+  GITLAB_TOKEN: ${GITLAB_TOKEN}
+  GIT_AUTHOR_NAME: ${GITLAB_USER_NAME}
+  GIT_AUTHOR_EMAIL: ${GITLAB_USER_EMAIL}
+  GIT_COMMITTER_NAME: ${GITLAB_USER_NAME}
+  GIT_COMMITTER_EMAIL: ${GITLAB_USER_EMAIL}
 
 before_script:
-
-- export PATH=$PATH:/usr/local/bin/npm
-- npm install --loglevel=error --save-dev semantic-release @semantic-release/gitlab-config
+  - export PATH=$PATH:/usr/local/bin/npm
+  - npm install --loglevel=error --save-dev semantic-release @semantic-release/gitlab-config
 
 script:
-
-- npx semantic-release -e @semantic-release/gitlab-config
-
-only:
-
-- main
+  - npx semantic-release -e @semantic-release/gitlab-config
+only: 
+  - main
 
 {% endhighlight %}
