@@ -26,12 +26,14 @@ It is a solution to a problem known in software management called "Dependency He
 2. MINOR version - when you add functionality in a backward-compatible manner.
 3. PATCH version - when you make backward-compatible bug fixes.
 
-<i>Documentation in (https://semver.org/)</i>
+<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/Tries" target="_blank"> Tries in C++ </a></p>
+
+<p>a href="https://semver.org/" target="_blank">Full Documentation in (https://semver.org/)</a></p>
 
 In this post I will show you to use a fully automated semantic versioning tool called (semantic-release) in a GitLab pipeline.
 
-<i>Documentation in (https://semantic-release.gitbook.io/semantic-release/)</i>
-<i>GitHub in (https://github.com/semantic-release/semantic-release)</i>
+<p>a href="https://semantic-release.gitbook.io/semantic-release/" target="_blank">semantic-release tutorial</a></p>
+<p>a href="https://github.com/semantic-release/semantic-release" target="_blank">semantic-release GitHub</a></p>
 
 <h4>How to setup Release Stage in your GitLab pipeline</h4>
 
@@ -61,7 +63,9 @@ Here is a sample .releaserc.json file you can start with:
 }
 {% endhighlight %}
 
-Notice in the sample file above, the commit-analyzer plugin has two custom releaseRules which checks for a new rlease on the main branch based on a message convention: <strong>type(scope): message</strong>
+Notice in the sample file above, the commit-analyzer plugin has two custom releaseRules which checks for a new rlease on the main branch based on a message convention: 
+
+<strong>type(scope): message</strong>
 
 For example, the following commit message "style: repositioned the navbar" will trigger a <strong>PATCH</strong> release while the following commit message "breaking: deprecated the promocode API" will trigger a <strong>MAJOR</strong> release. If no rules match, it will search for the default releaseRules which you can find in semantic-release GitHub repo.
 
@@ -89,4 +93,5 @@ script:
 only: 
   - main
 
+And there you go! You have an automated semantic versioning stage. 
 {% endhighlight %}
