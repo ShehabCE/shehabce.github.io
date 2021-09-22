@@ -42,7 +42,7 @@ In this post I will show you to use a fully automated semantic versioning tool c
 
 Here is a sample .releaserc.json file you can start with:
 
-{% highlight javascript %}
+{% highlight c++ %}
 {
 "branches": ["main"],
 "prepare": false,
@@ -64,7 +64,7 @@ For example, the following commit message "style: repositioned the navbar" will 
 
 Create a .gitlab-ci.yml file and add the following stage:
 
-{% hightlight javascript %}
+{% highlight c++ %}
 stages:
 
 - Release
