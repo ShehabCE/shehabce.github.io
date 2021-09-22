@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Semantic Versioning"
+title: "Semantic Versioning in GitLab CI"
 date: 2019-07-05 19:33:00
 author: Shehab
 categories: Computer-Science
@@ -42,7 +42,7 @@ In this post I will show you to use a fully automated semantic versioning tool c
 
 Here is a sample .releaserc.json file you can start with:
 
-{% highlight json %}
+{% highlight javascript %}
 {
 "branches": ["main"],
 "prepare": false,
@@ -64,7 +64,7 @@ For example, the following commit message "style: repositioned the navbar" will 
 
 Create a .gitlab-ci.yml file and add the following stage:
 
-{% hightlight yml %}
+{% hightlight javascript %}
 stages:
 
 - Release
