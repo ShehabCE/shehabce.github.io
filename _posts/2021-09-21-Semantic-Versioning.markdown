@@ -26,14 +26,13 @@ It is a solution to a problem known in software management called "Dependency He
 2. MINOR version - when you add functionality in a backward-compatible manner.
 3. PATCH version - when you make backward-compatible bug fixes.
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/Tries" target="_blank"> Tries in C++ </a></p>
-
-<p>a href="https://semver.org/" target="_blank">Full Documentation in (https://semver.org/)</a></p>
+<p><a href="https://semver.org/" target="_blank">Full Documentation in (https://semver.org/)</a></p>
 
 In this post I will show you to use a fully automated semantic versioning tool called (semantic-release) in a GitLab pipeline.
 
-<p>a href="https://semantic-release.gitbook.io/semantic-release/" target="_blank">semantic-release tutorial</a></p>
-<p>a href="https://github.com/semantic-release/semantic-release" target="_blank">semantic-release GitHub</a></p>
+<p><a href="https://semantic-release.gitbook.io/semantic-release/" target="_blank">semantic-release tutorial</a></p>
+
+<p><a href="https://github.com/semantic-release/semantic-release" target="_blank">semantic-release GitHub</a></p>
 
 <h4>How to setup Release Stage in your GitLab pipeline</h4>
 
