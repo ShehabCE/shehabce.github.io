@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Semantic Versioning in GitLab CI"
-date: 2021-09-21 23:30:00
+title: "Semantic Versioning"
+date: 2019-07-05 19:33:00
 author: Shehab
 categories: Computer-Science
-tags: DevOps
-cover: "/assets/posts/semver.png"
+tags: Algorithms
+cover: "/assets/posts/tries.png"
 ---
 
 You and your team are maintaing a set of backend services for an online shopping application. Scenario A, your colleague is pushing a bug fix to <strong>Order Service</strong> that caused some problems in the <strong>Cart Service</strong>. This new push has changed the state of the service from the old buggy state to the new fixed state. But say there is another team who want to quickly identify the magnitude of your change, i.e. did you break any logic? did you remove a class, or did you change a function signature that was used in other services?, or did you just update a README file?
