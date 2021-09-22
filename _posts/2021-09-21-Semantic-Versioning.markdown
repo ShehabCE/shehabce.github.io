@@ -92,5 +92,6 @@ script:
 only: 
   - main
 
-And there you go! You have an automated semantic versioning stage. 
 {% endhighlight %}
+
+And there you go! You have an automated semantic versioning stage. 
