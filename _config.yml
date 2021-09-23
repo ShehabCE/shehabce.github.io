@@ -54,8 +54,11 @@ descriptions:
   - cat: Food-for-thought
     # desc: "..."
 
+  - cat: Software-Engineering
+    # desc: "..."
+
   # - cat: Projects
-  #   desc: "Showcasing my work."
+    # desc: "Showcasing my work."
 
 # Social icons and sharing options
 #

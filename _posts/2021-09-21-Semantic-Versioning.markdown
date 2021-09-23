@@ -3,7 +3,7 @@ layout: post
 title: "Semantic Versioning in GitLab CI"
 date: 2021-09-22 23:33:15
 author: Shehab
-categories: Computer-Science
+categories: Software-Engineering
 tags: DevOps
 cover: "/assets/posts/semver.png"
 ---
@@ -75,22 +75,22 @@ stages:
 - Release
 
 semantic-release:
-stage: Release
-variables:
-  GITLAB_TOKEN: ${GITLAB_TOKEN}
-  GIT_AUTHOR_NAME: ${GITLAB_USER_NAME}
-  GIT_AUTHOR_EMAIL: ${GITLAB_USER_EMAIL}
-  GIT_COMMITTER_NAME: ${GITLAB_USER_NAME}
-  GIT_COMMITTER_EMAIL: ${GITLAB_USER_EMAIL}
+  stage: Release
+  variables:
+    GITLAB_TOKEN: ${GITLAB_TOKEN}
+    GIT_AUTHOR_NAME: ${GITLAB_USER_NAME}
+    GIT_AUTHOR_EMAIL: ${GITLAB_USER_EMAIL}
+    GIT_COMMITTER_NAME: ${GITLAB_USER_NAME}
+    GIT_COMMITTER_EMAIL: ${GITLAB_USER_EMAIL}
 
-before_script:
-  - export PATH=$PATH:/usr/local/bin/npm
-  - npm install --loglevel=error --save-dev semantic-release @semantic-release/gitlab-config
+  before_script:
+    - export PATH=$PATH:/usr/local/bin/npm
+    - npm install --loglevel=error --save-dev semantic-release @semantic-release/gitlab-config
 
-script:
-  - npx semantic-release -e @semantic-release/gitlab-config
-only: 
-  - main
+  script:
+    - npx semantic-release -e @semantic-release/gitlab-config
+  only: 
+    - main
 
 {% endhighlight %}
 
