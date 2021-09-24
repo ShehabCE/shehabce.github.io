@@ -19,7 +19,7 @@ That's where Semantic Versioning comes in.
 
 <h4>What is Semantic Versioning?</h4>
 
-It is a solution to a problem known in software management called "Dependency Hell" -- The bigger the system, the more packages needed to integrate in the ssytem. It is a set of rules to define how software should be versioned and how it should incremened based on the code changes.
+It is a solution to a problem known in software management called "Dependency Hell" -- The bigger the system, the more packages needed to integrate in the system. It is a set of rules to define how software should be versioned and how it should increment based on the code changes.
 
 <p align="center">MAJOR.MINOR.PATCH</p>
 
