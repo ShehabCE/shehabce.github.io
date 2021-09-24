@@ -38,7 +38,7 @@ In this post I will show you to use a fully automated semantic versioning tool c
 <h4>How to setup Release Stage in your GitLab pipeline</h4>
 
 <ol>
-    <li>Generate an access token and set it as an environment variable to you selected repository either (GL_TOKEN or GITLAB_TOKEN).</li>
+    <li>Generate a GitLab access token and set it as an environment variable to you selected repository either (GL_TOKEN or GITLAB_TOKEN).</li>
     <li>Create .releaserc file in either format (JSON / YAML / YML) and include the plugin(s) needed based on your preferences.</li>
 </ol>
 
