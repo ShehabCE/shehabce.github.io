@@ -8,13 +8,14 @@ tags: DevOps
 cover: "/assets/posts/semver.png"
 ---
 
-You and your team are maintaing a set of backend services for an online shopping application. Scenario A, your colleague is pushing a bug fix to <strong>Order Service</strong> that caused some problems in the <strong>Cart Service</strong>. This new push has changed the state of the service from the old buggy state to the new fixed state. But say there is another team who want to quickly identify the magnitude of your change, i.e. did you break any logic? did you remove a class, or did you change a function signature that was used in other services?, or did you just update a README file?
+You and your team are maintaing a set of backend services for an online shopping application. Scenario A, your colleague is pushing a bug fix to <strong>Order Service</strong> that caused some problems in the <strong>Cart Service</strong>. This new push has changed the state of the service from the old buggy state to the new fixed state. But say there is another team who want to quickly identify the magnitude of your change, i.e. did you break any logic? did you remove a class, or did you change a function signature that was used in other services?, or did you just fix a typo user message?
 
-Another Scenario, Scenario B, you are importing a 3rd party service such as <strong>Payment Service</strong> with a version 3.2.0, you notice two new releases with versions; 3.2.1 and 4.0.0. What is the difference? What is the magnitude of change in the 3rd party service? Should you be worried when upgrading to this new version or not?
+Scenario B, you are importing a 3rd party service such as <strong>Payment Service</strong> with a version 3.2.0, you notice two new releases with versions; 3.2.1 and 4.0.0. What is the difference between the two? What is the magnitude of change in the 3rd party service? Should you be worried when upgrading to this new version or not?
 
 <p align="center"><img src="/assets/posts/service-versions.png"></p>
 
-Given scenario A and B, the question we have here is, how can you assign a label of a certain service to keep track of its changes and its current state? That's where Semantic Version comes in.
+Given scenario A and B, the question we have here is, how can you assign a label of a certain service to keep track of its changes and its current state? Another valid question is, how can you tell of a certain software has released multiple bug fixes? 
+That's where Semantic Versioning comes in.
 
 <h4>What is Semantic Versioning?</h4>
 
@@ -94,4 +95,4 @@ semantic-release:
 
 {% endhighlight %}
 
-And there you go! You have an automated semantic versioning stage. 
+And there you go! You have an automated semantic versioning stage in your GitLab CI pipeline. 
