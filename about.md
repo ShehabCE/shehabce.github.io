@@ -12,7 +12,7 @@ I currently work as a Software Engineer at [Faculty][company]. I previously work
 
 I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University]. I'm a tech enthusiast who enjoys doing research on new technologies, developing production-grade solutions, and writing tech-related posts for sharing knowledge whenever I can. 
 
-I am an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests. And I also love to teach!
+I am an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
 You can reach out to me via [LinkedIn Profile][linkedin]
 
