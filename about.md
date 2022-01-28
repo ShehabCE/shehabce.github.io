@@ -8,9 +8,9 @@ permalink: /about/
 
 My name is Shehab Abdel-Salam and I'm a software engineer with a passion of building high quality and maintainable software. My passion extends in learning new technologies and recent innovations in the tech world, and I also love to teach!
 
-I graduated with a B.Sc. in Computer Engineering from the American University in Cairo in Jan 2018 and I am currently studying for my M.Sc. degree in Computer Science with specialization in Deep Learning.
+I currently work as a Software Engineer at Faculty [company]. I previously worked at Dell Technologies for around 2 years both at the Data Office team and Live Optics Product Development team. During my time at Dell, I worked as a part-time graduate teaching assistant at The American University in Cairo [university], and during my undergrad studies I've had couple of internships working as a deep learning researcher and web development intern.
 
-I currently work in the Data Office Team at Dell Technologies as an R&D Software Engineer and I am a part-time graduate teaching assistant at The American University in Cairo. During my time at Dell before joining Data Office team, I have also worked as a Software Engineer Graduate Intern in Live Optics Product Development Team. I've previously worked as a researcher intern at Valeo, and I also worked at Levelset as a web development intern.
+I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from The American University in Cairo [University]. I'm a tech enthusiast who enjoys writing code and writes tech-related posts sharing knowledge whenever I can. 
 
 I am also an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
@@ -27,3 +27,5 @@ Subset of project papers I have written during my graduate studies:
 
 [linkedin]: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
 [github]: https://github.com/ShehabMMohamed
+[company]: https://faculty.ai
+[university]: https://www.aucegypt.edu
