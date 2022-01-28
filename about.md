@@ -8,11 +8,11 @@ permalink: /about/
 
 My name is Shehab Abdel-Salam and I'm a software engineer with a passion of building high quality and maintainable software. My passion extends in learning new technologies and recent innovations in the tech world, and I also love to teach!
 
-I currently work as a Software Engineer at Faculty [company]. I previously worked at Dell Technologies for around 2 years both at the Data Office team and Live Optics Product Development team. During my time at Dell, I worked as a part-time graduate teaching assistant at The American University in Cairo [university], and during my undergrad studies I've had couple of internships working as a deep learning researcher and web development intern.
+I currently work as a Software Engineer at Faculty [company]. I previously worked at Dell Technologies for almost 2 years both at the Data Office team and Live Optics Product Development team. During my time at Dell, I worked as a part-time graduate teaching assistant at The American University in Cairo [university] for 3 years where I delivered weekly sessions on data structures and algorithms to a total of 300 students.
 
-I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from The American University in Cairo [University]. I'm a tech enthusiast who enjoys writing code and writes tech-related posts sharing knowledge whenever I can. 
+I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from The American University in Cairo [University]. I'm a tech enthusiast who enjoys doing research on new technologies, developing production-grade solutions, and writing tech-related posts for sharing knowledge whenever I can. 
 
-I am also an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
+I am an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests. And I also love to teach!
 
 You can reach out to me via [LinkedIn Profile][linkedin]
 
