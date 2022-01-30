@@ -10,7 +10,7 @@ My name is Shehab Abdel-Salam and I'm a software engineer with a passion of buil
 
 I currently work as a Software Engineer at [Faculty][company]. I previously worked at Dell Technologies for almost 2 years both at the Data Office team and [Live Optics][liveoptics] Product Development team. During my time at Dell, I worked as a part-time graduate teaching assistant at [The American University in Cairo][university] for 3 years where I delivered weekly sessions on data structures and algorithms to a total of 300 students.
 
-I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University]. I'm a tech enthusiast who enjoys doing research on new technologies, developing production-grade solutions, and writing tech-related posts, sharing knowledge whenever I can. 
+I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University]. I'm a tech enthusiast who enjoys doing research on new technologies, developing production-grade services, and writing tech-related posts, sharing knowledge whenever I can. 
 
 I am an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
