@@ -21,7 +21,7 @@ More details on [Github Profile][github]
 
 Subset of papers I have written during my graduate studies:
 
-1. Abdel-Salam, Shehab, and Ahmed Rafea. “Performance Study on Extractive Text Summarization Using BERT Models.” Information, vol. 13, no. 2, 1 Feb. 2022, p. 67, www.mdpi.com/2078-2489/13/2/679(https://www.mdpi.com/2078-2489/13/2/67), 10.3390/info13020067.
+1. Abdel-Salam, Shehab, and Ahmed Rafea. “Performance Study on Extractive Text Summarization Using BERT Models.” Information, vol. 13, no. 2, 1 Feb. 2022, p. 67, [www.mdpi.com/2078-2489/13/2/679](https://www.mdpi.com/2078-2489/13/2/67), 10.3390/info13020067.
 2. [Study on E-CVRPTW Problem Using Reinforcement Learning - 2020](https://drive.google.com/file/d/1S66LT3kInvsubYGUlW4S78QJWLESqap3/view?usp=sharing)
 3. [Load Balancing Algorithms in Distributed File Systems - 2019](https://drive.google.com/file/d/1uwlMDUGlllPCa1riIjcvhv8-sL7gsdoJ/view?usp=sharing)
 4. [Recurrent Neural Networks for Toxic Comment Classification - 2018](https://github.com/ShehabMMohamed/ToxicCommentClassification)
