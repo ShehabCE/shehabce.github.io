@@ -19,9 +19,9 @@ You can reach out to me via [LinkedIn Profile][linkedin]
 During my undergrad journey, I have worked on a vast array of projects where I have programmed in many languages like Python3, C, C++, JavaScript, Java, and Perl.
 More details on [Github Profile][github]
 
-Subset of papers I have written during my graduate studies:
+Subset of papers I wrote during my graduate studies:
 
-1. Abdel-Salam, Shehab, and Ahmed Rafea. “Performance Study on Extractive Text Summarization Using BERT Models.” Information, vol. 13, no. 2, 1 Feb. 2022, p. 67, [www.mdpi.com/2078-2489/13/2/679](https://www.mdpi.com/2078-2489/13/2/67), 10.3390/info13020067.
+1. [Abdel-Salam, Shehab, and Ahmed Rafea. “Performance Study on Extractive Text Summarization Using BERT Models.”](https://www.mdpi.com/2078-2489/13/2/67)
 2. [Study on E-CVRPTW Problem Using Reinforcement Learning - 2020](https://drive.google.com/file/d/1S66LT3kInvsubYGUlW4S78QJWLESqap3/view?usp=sharing)
 3. [Load Balancing Algorithms in Distributed File Systems - 2019](https://drive.google.com/file/d/1uwlMDUGlllPCa1riIjcvhv8-sL7gsdoJ/view?usp=sharing)
 4. [Recurrent Neural Networks for Toxic Comment Classification - 2018](https://github.com/ShehabMMohamed/ToxicCommentClassification)
