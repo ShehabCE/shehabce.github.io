@@ -93,4 +93,4 @@ There is an important concept when it comes to Hash Tables as well called Amorti
 <p align="center"><a href="https://www.cs.cornell.edu/courses/cs312/2008sp/lectures/lec20.html" target="_blank"> Amrotized Analysis - Cornell University </a></p>
 
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/HashTables/HashTable.go" target="_blank"> Hash Tables in Go </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Go-Datastructures/blob/main/internal/HashTables/HashTable.go" target="_blank"> Hash Tables in Go </a></p>

@@ -44,5 +44,5 @@ let W be the number of strings and L be the length of the longest string.
 2. Worst case Time Complexity of searching/adding/deleting a string in a trie is O(L)
 3. Average case Time Complexity of searching/adding/deleting a string in a trie is O(L)
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/Tries" target="_blank"> Tries in C++ </a></p>
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Tries/Trie.go" target="_blank"> Tries in Go </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/Tries" target="_blank"> Tries in C++ </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Go-Datastructures/blob/main/internal/Tries/Trie.go" target="_blank"> Tries in Go </a></p>

@@ -22,7 +22,7 @@ A Red Black Tree is not a totally new data structure, it is rather an augmented 
 	<li> Minimum(T)</li>
 </ul>
 
-<p align="center"><emp>You can go quickly through Binary Search Trees <a href="https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html" target="_blank">here.</a></emp></p>
+<p align="center"><emp>You can go quickly through Binary Search Trees <a href="https://shehab-as.github.io/computer-science/2018/10/19/Binary-Search-Trees.html" target="_blank">here.</a></emp></p>
 
 There are 4 properties that must hold in a Red-Black Tree:-
 
@@ -111,4 +111,4 @@ We perform a traditional BST delete + RBT FixUp, and FixUp refers to either rota
 	</tr>
 </table>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Advanced%20Data%20Structures/Red%20Black%20Trees/RedBlackTrees.h" target="_blank"> Red Black Trees in C++ </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Datastructures-And-Algorithms/blob/master/Advanced%20Data%20Structures/Red%20Black%20Trees/RedBlackTrees.h" target="_blank"> Red Black Trees in C++ </a></p>

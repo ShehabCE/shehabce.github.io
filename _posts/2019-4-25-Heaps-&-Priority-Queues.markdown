@@ -96,6 +96,6 @@ When it comes to time complexity...
 	</tr>
 </table>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Priority%20Queues/PriorityQueue.h" target="_blank"> Heaps in C++ </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Datastructures-And-Algorithms/blob/master/Data%20Structures/Priority%20Queues/PriorityQueue.h" target="_blank"> Heaps in C++ </a></p>
 
-<p align="center"><a href="https://github.com/ShehabMMohamed/Go-Datastructures/blob/main/internal/Heaps/Heap.go" target="_blank"> Heaps in Go </a></p>
+<p align="center"><a href="https://github.com/shehab-as/Go-Datastructures/blob/main/internal/Heaps/Heap.go" target="_blank"> Heaps in Go </a></p>
