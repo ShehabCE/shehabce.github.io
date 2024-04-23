@@ -4,20 +4,18 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/Shehab.png" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/Shehab.jpg" title="Profile Picture" class="profile">
 
-My name is Shehab Abdel-Salam and I'm a software engineer with a passion of building high quality and maintainable software. My passion extends in learning new technologies and recent innovations in the tech world, and I also love to teach!
+Hello! My name is Shehab Abdel-Salam. I'm a Software Engineer with 5+ years of experience in building, deploying, and maintaining enterprise-level software products. Throughout my career, I've had the privilege of working on a variety of projects, each with its unique challenges and learning opportunities. This has not only honed my technical skills but also my problem-solving abilities and leadership qualities. I also enjoy engaging with the tech community and contributing to open-source projects.
 
-I currently work as a Software Engineer at [Faculty][company]. I previously worked at Dell Technologies for almost 2 years both at the Data Office team and [Live Optics][liveoptics] Product Development team. During my time at Dell, I worked as a part-time graduate teaching assistant at [The American University in Cairo][university] for 3 years where I delivered weekly sessions on data structures and algorithms to a total of 300 students.
+Currently, I work as a Software Engineer at [Faculty AI][company] where I'm part of a dynamic team building an exciting AI product called [Frontier][frontier] 🚀. Previously, I worked at Dell Technologies for around 2 years, initially working with the [Live Optics][liveoptics] Product Development team, and then the Data Office team.
 
-I have a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University]. I'm a tech enthusiast who enjoys doing research on new technologies, developing production-grade services, and writing tech-related posts, sharing knowledge whenever I can. 
+During my graduate studies, I had the privilege of teaching and supporting over 300 undergraduate students, as well as mentoring aspiring junior engineers in my previous role. I hold a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University].
 
-I am an experienced C/C++ programmer with a participation history of problem solving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
+Prior to my professional career, I was an experienced C/C++ programmer and participated in problem-solvving competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
-You can reach out to me via [LinkedIn Profile][linkedin]
-
-During my undergrad journey, I have worked on a vast array of projects where I have programmed in many languages like Python3, C, C++, JavaScript, Java, and Perl.
-More details on [Github Profile][github]
+During my undergraduate journey, I worked on a vast array of projects where I programmed in many languages, including Python, C/C++, JavaScript, Java, C#, and Perl.
+You can find more on my [GitHub][github].
 
 Subset of papers I wrote during my graduate studies:
 
@@ -31,3 +29,4 @@ Subset of papers I wrote during my graduate studies:
 [company]: https://faculty.ai
 [university]: https://www.aucegypt.edu
 [liveoptics]: https://liveoptics.com
+[frontier]: https://faculty.ai/frontier
