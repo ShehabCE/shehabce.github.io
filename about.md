@@ -10,9 +10,11 @@ Hello! My name is Shehab Abdel-Salam. I'm a Software Engineer with **5+ years** 
 
 Currently, I work as a Software Engineer at [Faculty AI][company] where I'm part of a dynamic team building an exciting AI product called [Frontier][frontier] 🚀. Previously, I worked at Dell Technologies for around 2 years, initially working with the [Live Optics][liveoptics] Product Development team, and then the **Data Office** team.
 
-During my graduate studies, I had the privilege of teaching and supporting **over 300** undergraduate students, as well as mentoring aspiring junior engineers in my previous role. I hold a M.Sc. degree in Computer Science and a B.Sc. degree in Computer Engineering from [The American University in Cairo][University].
+During my graduate studies, I had the privilege of teaching and supporting **over 300** undergraduate students, as well as mentoring aspiring junior engineers in my previous role. I hold a **M.Sc. degree** in Computer Science and a **B.Sc. degree** in Computer Engineering from [The American University in Cairo][University].
 
-Prior to my professional career, I was an experienced C/C++ programmer and participated in **problem-solving** competitions such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
+Prior to my professional career, I was an experienced C/C++ programmer and participated in **problem-solving competitions** such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
+
+F
 
 ---
 
