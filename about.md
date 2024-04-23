@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/Shehab.jpg" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/Shehab.png" title="Profile Picture" class="profile">
 
 Hello! My name is Shehab Abdel-Salam. I'm a Software Engineer with **5+ years** of experience in building, deploying, and maintaining enterprise-level software products. Throughout my career, I've had the privilege of working on a variety of projects, each with its unique challenges and learning opportunities. This has not only honed my technical skills but also my problem-solving abilities and leadership qualities. I also enjoy **engaging** with the tech community and **contributing** to open-source projects.
 
