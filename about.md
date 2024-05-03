@@ -1,5 +1,3 @@
-Hello world!
-
 ---
 layout: page
 title: About
