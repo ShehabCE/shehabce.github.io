@@ -23,7 +23,7 @@ Some of the papers I've worked on during my graduate studies:
 3. [Load Balancing Algorithms in Distributed File Systems - 2019](https://drive.google.com/file/d/1uwlMDUGlllPCa1riIjcvhv8-sL7gsdoJ/view?usp=sharing)
 4. [Recurrent Neural Networks for Toxic Comment Classification - 2018](https://github.com/shehab-as/ToxicCommentClassification)
 
-[linkedin]: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
+[linkedin]: https://www.linkedin.com/in/shehab-abdel-salam
 [github]: https://github.com/shehab-as
 [company]: https://faculty.ai
 [university]: https://www.aucegypt.edu

@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: Shehab Abdel-Salam
 subtitle: "Writing articles. Writing code. Sometimes I do both."
-email: shehab_m@aucegypt.edu
+email: shehab.ams@gmail.edu
 name: Shehab Abdel-Salam
 description: >
   Writing articles. Writing code. Sometimes I do both.
@@ -99,8 +99,15 @@ social:
   - name: LinkedIn
     icon: linkedin
     username: Shehab Abdel-Salam
-    url: https://www.linkedin.com/in/shehab-abdel-salam-0a12ab97/
+    url: https://www.linkedin.com/in/shehab-abdel-salam
     desc: Connect with me on LinkedIn
+    share: true
+
+  - name: YouTube
+    icon: youtube
+    username: Shehab Abdel-Salam
+    url: https://www.youtube.com/channel/UCtnnffSXDiw2RH3s3ZAcEkw
+    desc: Subscribe on YouTube
     share: true
 
   - name: Google+
@@ -108,13 +115,6 @@ social:
     username:
     url:
     desc: Add me to your Circles
-    share: false
-
-  - name: YouTube
-    icon: youtube
-    username:
-    url:
-    desc: Subscribe on YouTube
     share: false
 
   - name: Instagram
