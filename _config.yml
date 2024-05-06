@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: Shehab Abdel-Salam
 subtitle: "Writing articles. Writing code. Sometimes I do both."
-email: shehab.ams@gmail.edu
+email: shehab.ams@gmail.com
 name: Shehab Abdel-Salam
 description: >
   Writing articles. Writing code. Sometimes I do both.
@@ -89,13 +89,7 @@ social:
   #   url:
   #   desc: Friend me on Facebook
   #   share: false
-
-  - name: GitHub
-    icon: github
-    username: Shehab
-    url: https://github.com/shehab-as
-    share: true
-
+  
   - name: LinkedIn
     icon: linkedin
     username: Shehab Abdel-Salam
@@ -108,6 +102,12 @@ social:
     username: Shehab Abdel-Salam
     url: https://www.youtube.com/channel/UCtnnffSXDiw2RH3s3ZAcEkw
     desc: Subscribe on YouTube
+    share: true
+
+  - name: GitHub
+    icon: github
+    username: Shehab
+    url: https://github.com/shehab-as
     share: true
 
   - name: Google+
