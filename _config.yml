@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: " "
-subtitle: " "
+title: Shehab Abdel-Salam
+subtitle: "Writing articles. Writing code. Sometimes I do both."
 email: shehab.ams@gmail.com
 name: Shehab Abdel-Salam
 description: >
@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://shehab-as.github.io" # the base hostname & protocol for your site
-cover: "/assets/wallpaper-fancy-mini.png"
+cover: "/assets/wallpaper.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
