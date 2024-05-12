@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: 
-subtitle: ""
+title: " "
+subtitle: " "
 email: shehab.ams@gmail.com
 name: Shehab Abdel-Salam
 description: >
