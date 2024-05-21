@@ -14,6 +14,10 @@ During my graduate studies, I also had the privilege of teaching programming cou
 
 Prior to my professional career, I was an experienced C/C++ programmer and participated in **problem-solving competitions** such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
+I'm always open to **mentorship** opportunities and helping aspiring engineers grow in their careers. If you're interested in a mentorship session, you can book a session with me down below:
+<section style="height: 496px; box-shadow: rgba(142, 151, 158, 0.15) 0px 4px 19px 0px; border-radius: 16px; overflow: hidden; width: 100%; max-width: 650px;"><iframe src="https://adplist.org/widgets/single-session?src=shehab-abdel-salam&amp;session=38654-mentorship-session" title="Mentorship Session" width="100%" height="100%" loading="lazy" style="border: 0px;"></iframe></section>
+
+
 ---
 
 Some of the papers I've worked on during my graduate studies:
