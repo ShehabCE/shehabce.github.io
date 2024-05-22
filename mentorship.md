@@ -16,7 +16,7 @@ I'm always open to **mentorship** opportunities and helping aspiring engineers g
 - Backend engineering
 - Working in a fast-paced environment
 - Getting the most out of an internship
-- Writing a software design document
+- Writing software design documents
 - Presentation skills
 - Communication and collaboration skills
 - Time management and organizational skills
