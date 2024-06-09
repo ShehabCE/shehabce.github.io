@@ -104,13 +104,6 @@ social:
     desc: Follow me on Instagram
     share: true
 
-  - name: TikTok
-    icon: tiktok
-    username: shehabas_
-    url: https://www.tiktok.com/shehabas_
-    desc: Follow me on TikTok
-    share: true
-
   - name: GitHub
     icon: github
     username: shehab-as
