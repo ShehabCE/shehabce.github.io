@@ -83,13 +83,6 @@ social:
   #   desc: Follow me on Twitter
   #   share: false
 
-  # - name: Facebook
-  #   icon: facebook
-  #   username: thebencentra
-  #   url:
-  #   desc: Friend me on Facebook
-  #   share: false
-  
   - name: LinkedIn
     icon: linkedin
     username: Shehab Abdel-Salam
@@ -104,6 +97,20 @@ social:
     desc: Subscribe on YouTube
     share: true
 
+  - name: Instagram
+    icon: instagram
+    username: shehabas__
+    url: https://www.instagram.com/shehabas__
+    desc: Follow me on Instagram
+    share: true
+
+  - name: TikTok
+    icon: tiktok
+    username: shehabas_
+    url: https://www.tiktok.com/shehabas_
+    desc: Follow me on TikTok
+    share: true
+
   - name: GitHub
     icon: github
     username: shehab-as
@@ -116,13 +123,6 @@ social:
     url:
     desc: Add me to your Circles
     share: false
-
-  - name: Instagram
-    icon: instagram
-    username: shehabas__
-    url: https://www.instagram.com/shehabas__
-    desc: Follow me on Instagram
-    share: true
 
   - name: Pinterest
     icon: pinterest
