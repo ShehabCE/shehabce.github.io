@@ -6,13 +6,13 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/Shehab.jpg" title="Profile Picture" class="profile">
 
-Hello! My name is **Shehab Abdel-Salam**. I'm a Senior Software Engineer with **5+ years** of experience in building and maintaining enterprise-level software. Throughout my career, I've had the privilege of working on a variety of projects with unique challenges and learning opportunities, honing not only my technical skills but also my product thinking and leadership skills. I also contribute to **open-source** projects occassiaonlly and enjoy **engaging** socially with the tech community.
+Hello! My name is **Shehab Abdel-Salam**. I'm a Senior Software Engineer with **5+ years** of experience in building new products and tackling challenging business problems. Throughout my career, I've had the privilege of working on a variety of projects with unique challenges and learning opportunities, honing not only my technical skills but also my product thinking and leadership skills. I also contribute to **open-source** projects occasionally and enjoy **engaging** socially with the tech community.
 
-I currently work at [Faculty AI][company] as a backend engineer where I'm part of a dynamic team building a **Decision Intelligence** product called [Frontier][frontier] 🚀. Previously, I worked at **Dell Technologies** for around 2 years, initially working with the [Live Optics][liveoptics] Product Development team as a backend engineer, and then the **Data Office** team as a full-stack engineer.
+I currently work at [Faculty AI][company] as a backend engineer where I'm part of the team building a **Decision Intelligence** product called [Frontier][frontier] 🚀. Previously, I worked at **Dell Technologies** for around 2 years, initially working as a backend engineer in the [Live Optics][liveoptics] product development team, and then as a full-stack engineer in the **Data Office** team.
 
-During my graduate studies, I also had the privilege of teaching programming courses and supporting **over 300** undergraduate students, as well as mentoring aspiring junior engineers in my previous role at Dell. I hold a **M.Sc. degree** in Computer Science and a **B.Sc. degree** in Computer Engineering from [The American University in Cairo][University].
+During my grad studies, I had the privilege of teaching programming courses and supporting **over 300** undergraduate students, as well as mentoring aspiring junior engineers in my previous role at Dell. I hold a **M.Sc. degree** in Computer Science and a **B.Sc. degree** in Computer Engineering from [The American University in Cairo][University].
 
-Prior to my professional career, I was an experienced C/C++ programmer and participated in **problem-solving competitions** such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
+Prior to my professional career, I was an experienced C/C++ programmer and participated casually in **problem-solving competitions** such as Google Code Jam, Facebook Hacker Cup, Codeforces Contests, and Weekly LeetCode Contests.
 
 ---
 
