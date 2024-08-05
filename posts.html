@@ -3,9 +3,7 @@ layout: page
 title: "Posts"
 permalink: /posts/
 ---
-<!-- Substack -->
-<iframe src="https://shehababdelsalam.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-<!-- Substack -->
+
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
