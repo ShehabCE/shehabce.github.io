@@ -90,12 +90,12 @@ social:
     desc: Connect with me on LinkedIn
     share: true
 
-  - name: YouTube
-    icon: youtube
-    username: Shehab Abdel-Salam
-    url: https://www.youtube.com/channel/UCtnnffSXDiw2RH3s3ZAcEkw
-    desc: Subscribe on YouTube
-    share: true
+  # - name: YouTube
+  #   icon: youtube
+  #   username: Shehab Abdel-Salam
+  #   url: https://www.youtube.com/channel/UCtnnffSXDiw2RH3s3ZAcEkw
+  #   desc: Subscribe on YouTube
+  #   share: true
 
   - name: Instagram
     icon: instagram
