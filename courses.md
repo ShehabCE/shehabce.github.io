@@ -14,7 +14,7 @@ Below, you’ll find a list of courses where I combine my knowledge and experien
 
 1. **[Productivity with Notion 101](https://www.udemy.com/course/productivity-with-notion-101/?referralCode=8FA28F7CF4D8B4553552)**
 
-   - Description: Crash course on how to maximize your personal and professional productivity using Notion.
+   - Description: Crash course on how to develop personal and professional productivity using Notion.
    - Duration: 1.5 hours
    - Level: Beginner
 
