@@ -4,7 +4,7 @@ title: Courses
 permalink: /courses/
 ---
 
-> If you want to master something, teach it. - Richard Feynman
+| **If you want to master something, teach it. - Richard Feynman**
 
 Welcome to my courses page, where I share my passion for teaching, knowledge sharing, and helping others grow!
 
