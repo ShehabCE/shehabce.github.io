@@ -4,7 +4,7 @@ title: Newsletter
 permalink: /newsletter/
 ---
 
-I write a weekly Friday newsletter called **The Proactive Engineer** where I share my thoughts on software engineering, product development, and career growth. I also share some actionable tips for early-mid career engineers and strategies for building a proactive engineering mindset.
+I write a weekly Friday newsletter called **The Proactive Engineer** where I share my thoughts on software engineering, product development, and career growth. I also share some actionable advice for growing software engineers and strategies for building the proactive engineering mindset.
 
 (You'll only receive one email per week—no spam, I promise!)
 
