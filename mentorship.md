@@ -4,7 +4,8 @@ title: Mentorship
 permalink: /mentorship/
 ---
 
-**Out of office: I'll be back in November 2024.**
+<p align="center">Out of office: I'll be back in January 2025.</p>
+
 
 I'm always open to **mentorship** opportunities and helping aspiring engineers grow in their careers. If you're interested in a free 1:1 session, you can book a slot down below on Adplist.
 
